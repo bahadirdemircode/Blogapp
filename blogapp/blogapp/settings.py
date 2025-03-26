@@ -25,7 +25,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 #SECRET_KEY = 'django-insecure-6d1_z9236#webyq^rhug!v0w^6%2cup&jxsq&ir!p$e!hczog'
 #SECRET_KEY = 'django-insecure-_z1mh$duegv8sq#n9metrwk=b=85s0#%1@^g)n&9j=13houq7='
 #SECRET_KEY = getenv("SECRET_KEY")
-SECRET_KEY = getenv("SECRET_KEY", 'django-insecure-default') 
+#SECRET_KEY = getenv("SECRET_KEY", 'django-insecure-default') 
+
+
+#SECRET_KEY = os.getenv("SECRET_KEY", "default-value-if-missing")
+SECRET_KEY = getenv("SECRET_KEY", "default-fallback-key")
+
 
 # SECURITY WARNING: don't run with debug turned on in production!
 #DEBUG = True
@@ -35,11 +40,13 @@ SECRET_KEY = getenv("SECRET_KEY", 'django-insecure-default')
 
 #ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
 #ALLOWED_HOSTS = ['.elasticbeanstalk.com', 'localhost', '127.0.0.1']
-DEBUG = getenv("DEBUG", "False") == "True"
-ALLOWED_HOSTS = getenv("ALLOWED_HOSTS", ".elasticbeanstalk.com").split(",")
+DEBUG = os.getenv("DEBUG", "False") == "True"
+ALLOWED_HOSTS = os.getenv("ALLOWED_HOSTS", ".elasticbeanstalk.com").split(",")
+
 #ALLOWED_HOSTS = ['.elasticbeanstalk.com']
 
-getenv()
+
+
 # Application definition
 
 INSTALLED_APPS = [
