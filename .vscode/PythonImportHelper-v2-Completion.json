@@ -1174,6 +1174,15 @@
         "kind": 5,
         "importPath": "blogapp.blogapp.wsgi",
         "description": "blogapp.blogapp.wsgi",
+        "peekOfCode": "application = get_wsgi_application()\nos.environ.setdefault('DJANGO_SETTINGS_MODULE', 'blogapp.settings')\napplication = get_wsgi_application()",
+        "detail": "blogapp.blogapp.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "blogapp.blogapp.wsgi",
+        "description": "blogapp.blogapp.wsgi",
         "peekOfCode": "application = get_wsgi_application()",
         "detail": "blogapp.blogapp.wsgi",
         "documentation": {}
