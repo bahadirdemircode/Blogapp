@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container mt-4">
+  <h2>{{ homework.title }}</h2>
+  <p><strong>Açıklama:</strong></p>
+  <p>{{ homework.description }}</p>
+
+  {% if homework.file %}
+    <p><strong>Dosya:</strong> 
+      <a href="{{ homework.file.url }}" target="_blank">İndir</a>
+    </p>
+  {% endif %}
+
+  <p><small><strong>Oluşturulma Tarihi:</strong> {{ homework.created_at|date:"d.m.Y H:i" }}</small></p>
+
+  <a href="{% url 'homework_edit' homework.id %}" class="btn btn-primary">Düzenle</a>
+  <a href="{% url 'homework_delete' homework.id %}" class="btn btn-danger">Sil</a>
+  <a href="{% url 'homework_list' %}" class="btn btn-secondary">← Listeye Dön</a>
+</div>
+{% endblock %}

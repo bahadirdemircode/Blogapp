@@ -5,32 +5,50 @@
 <link rel="stylesheet" href="{% static 'blog/css/style.css' %}" />
 {% endblock %}
 
-{% block title %} Homepage {% endblock %}
+{% block title %} ANASAYFA {% endblock %}
 
 {%  block content%}
 
-<div class="container mt-3">
+<div class="container-fluid mt-3">
     <div class="row">
-        <div class="col-3">
-            {% include 'partials/_categories.html' %}
+    
+      <!-- Sol Kategori Menüsü -->
+      <div class="col-3 sidebar">
+        <div class="list-group">
+          {% for category in categories %}
+            <a href="{% url 'blogs_by_category' category.slug %}"
+               class="list-group-item list-group-item-action {% if category.slug == selected_category %}active{% endif %}">
+              {{ category.name|title }}
+            </a>
+          {% endfor %}
         </div>
-        <div class="col-9">
-            <h1>Homepage</h1>
-            <hr />
-
-            {% for blog in blogs %}
-                {% if blog.is_home and blog.is_active %}
-                    {% include 'blog/partials/_blog.html' %}
-                {% endif %}
-            {% endfor %}
-
-            
-
-        </div>
+      </div>
+  
+      <!-- Sağ Blog İçeriği -->
+      <div class="col-9">
+        <h1>
+          {% if selected_category %}
+            {{ selected_category.name|title }}
+          {% else %}
+            ANASAYFA
+          {% endif %}
+        </h1>
+        <hr />
+        {% if blogs %}
+          {% for blog in blogs %}
+            {% if blog.is_active %}
+              {% include 'blog/partials/_blog.html' %}
+            {% endif %}
+          {% endfor %}
+        {% else %}
+          <div class="alert alert-warning">DERS BULUNAMADI</div>
+        {% endif %}
+      </div>
+  
     </div>
-</div>
+  </div>
 
-<!--<img src="{% static 'img/django.jpg' %}" alt="" width=350/>-->
+
 
 {% endblock %}
 

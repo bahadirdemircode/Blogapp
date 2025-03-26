@@ -2,21 +2,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}" />
-    <link rel="stylesheet" href="{% static 'css/base.css' %}" >
-    {% block css_files %} {% endblock %}
-    <title>
-        {% block title %} {% endblock %} |Blogapp</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}" />
+  <link rel="stylesheet" href="{% static 'css/base.css' %}">
+  {% block css_files %} {% endblock %}
+  <title>{% block title %}{% endblock %} | BİYOLOJİ</title>
 </head>
-<body>
-    {% include 'partials/_navbar.html' %}
 
-    {% block content%}{% endblock %}
+<!-- Sticky Footer İçin Flex Kullanımı -->
+<body class="d-flex flex-column min-vh-100">
 
-    <script src="{% static 'js/bootstrap.min.js' %}"></script>
-    <script src="{% static 'js/base.js' %}"></script>
-    {% block js_files %} {% endblock %}
+  <!-- Navbar -->
+  {% include 'partials/_navbar.html' %}
+
+  <!-- Ana İçerik -->
+  <main class="flex-fill">
+    {% block content %}{% endblock %}
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white mt-auto py-4">
+    <div class="container">
+      <div class="row justify-content-between align-items-center text-center text-md-start">
+        
+        <!-- Sol taraf: site linkleri -->
+        <div class="col-md-6 mb-2 mb-md-0">
+          <p class="mb-1">&copy; {% now "Y" %} Biyoloji Eğitim Platformu</p>
+          <p class="mb-0">
+            <a href="{% url 'home' %}" class="text-white text-decoration-underline">Anasayfa</a> |
+            <a href="{% url 'blogs' %}" class="text-white text-decoration-underline">Dersler</a> |
+            <a href="{% url 'homework_list' %}" class="text-white text-decoration-underline">Ödevler</a>
+          </p>
+        </div>
+  
+        <!-- Sağ taraf: isim -->
+        <div class="col-md-6 text-md-end">
+          <p class="mb-0">Bahadır DEMİR</p>
+          <p class="mb-0">bahadirdemir@outlook.com</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+
+  <!-- JS -->
+  <script src="{% static 'js/bootstrap.min.js' %}"></script>
+  <script src="{% static 'js/base.js' %}"></script>
+  {% block js_files %} {% endblock %}
 </body>
 </html>

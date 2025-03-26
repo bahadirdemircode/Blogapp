@@ -1,3 +1,50 @@
+/*body {
+    background-color: rgba(195, 201, 197, 0.879);
+}
+
+.blog-image {
+    width: 500px;
+    /* Sabit genişlik 
+    height: auto;
+    /* Oranı koruyarak otomatik yükseklik 
+    object-fit: cover;
+    /* Resmi kesmeden boyuta uydur 
+    border-radius: 8px;
+    /* Hafif yuvarlak köşeler 
+}*/
 body {
-    background-color: rgb(204, 199, 192);
+    background-color: rgba(195, 201, 197, 0.879);
+    margin: 0;
+    padding: 0;
+}
+
+.blog-image {
+    width: 500px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Kategorileri düzgün hizalamak için */
+.sidebar {
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
+.list-group {
+    padding-left: 15px !important;
+    margin-left: 15px !important;
+}
+
+.list-group-item {
+    padding-left: 1rem;
+    background-color: white;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+
+.list-group-item.active {
+    background-color: #178f7f;
+    color: white;
+    font-weight: bold;
 }

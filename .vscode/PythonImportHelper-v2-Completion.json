@@ -1,0 +1,1172 @@
+[
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "get_object_or_404",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "authenticate",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "logout",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "ckeditor.fields",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "ckeditor.fields",
+        "description": "ckeditor.fields",
+        "detail": "ckeditor.fields",
+        "documentation": {}
+    },
+    {
+        "label": "RichTextField",
+        "importPath": "ckeditor.fields",
+        "description": "ckeditor.fields",
+        "isExtraImport": true,
+        "detail": "ckeditor.fields",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "mark_safe",
+        "importPath": "django.utils.safestring",
+        "description": "django.utils.safestring",
+        "isExtraImport": true,
+        "detail": "django.utils.safestring",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "slugify",
+        "importPath": "django.utils.text",
+        "description": "django.utils.text",
+        "isExtraImport": true,
+        "detail": "django.utils.text",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "Blog",
+        "importPath": "blog.models",
+        "description": "blog.models",
+        "isExtraImport": true,
+        "detail": "blog.models",
+        "documentation": {}
+    },
+    {
+        "label": "Category",
+        "importPath": "blog.models",
+        "description": "blog.models",
+        "isExtraImport": true,
+        "detail": "blog.models",
+        "documentation": {}
+    },
+    {
+        "label": "Homework",
+        "importPath": "blog.models",
+        "description": "blog.models",
+        "isExtraImport": true,
+        "detail": "blog.models",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "getenv",
+        "importPath": "os",
+        "description": "os",
+        "isExtraImport": true,
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "static",
+        "importPath": "django.conf.urls.static",
+        "description": "django.conf.urls.static",
+        "isExtraImport": true,
+        "detail": "django.conf.urls.static",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "AccountConfig",
+        "kind": 6,
+        "importPath": "blogapp.account.apps",
+        "description": "blogapp.account.apps",
+        "peekOfCode": "class AccountConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'account'",
+        "detail": "blogapp.account.apps",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "blogapp.account.urls",
+        "description": "blogapp.account.urls",
+        "peekOfCode": "urlpatterns = [\n    path(\"login/\", views.login_request, name=\"login\"),\n    path(\"register/\", views.register_request, name=\"register\"),\n    path(\"logout/\", views.logout_request, name=\"logout\"),\n]",
+        "detail": "blogapp.account.urls",
+        "documentation": {}
+    },
+    {
+        "label": "login_request",
+        "kind": 2,
+        "importPath": "blogapp.account.views",
+        "description": "blogapp.account.views",
+        "peekOfCode": "def login_request(request):\n    if request.user.is_authenticated:\n        return redirect(\"home\")\n    if request.method == \"POST\":\n        username = request.POST[\"username\"]\n        password = request.POST[\"password\"]\n        user = authenticate(request, username = username, password = password)\n        if user is not None:\n            login(request, user)\n            return redirect(\"home\")",
+        "detail": "blogapp.account.views",
+        "documentation": {}
+    },
+    {
+        "label": "register_request",
+        "kind": 2,
+        "importPath": "blogapp.account.views",
+        "description": "blogapp.account.views",
+        "peekOfCode": "def register_request(request):\n    if request.user.is_authenticated:\n        return redirect(\"home\")\n    if request.method == \"POST\":\n        username = request.POST[\"username\"]\n        email = request.POST[\"email\"]\n        firstname = request.POST[\"firstname\"]\n        lastname = request.POST[\"lastname\"]\n        password = request.POST[\"password\"]\n        repassword = request.POST[\"repassword\"]",
+        "detail": "blogapp.account.views",
+        "documentation": {}
+    },
+    {
+        "label": "logout_request",
+        "kind": 2,
+        "importPath": "blogapp.account.views",
+        "description": "blogapp.account.views",
+        "peekOfCode": "def logout_request(request):\n    logout(request)\n    return redirect(\"home\")\ndef login_view(request):\n    if request.method == 'POST':\n        username = request.POST['username']\n        password = request.POST['password']\n        user = authenticate(request, username=username, password=password)\n        if user is not None:\n            login(request, user)",
+        "detail": "blogapp.account.views",
+        "documentation": {}
+    },
+    {
+        "label": "login_view",
+        "kind": 2,
+        "importPath": "blogapp.account.views",
+        "description": "blogapp.account.views",
+        "peekOfCode": "def login_view(request):\n    if request.method == 'POST':\n        username = request.POST['username']\n        password = request.POST['password']\n        user = authenticate(request, username=username, password=password)\n        if user is not None:\n            login(request, user)\n            return redirect('homework_list')  # veya 'home'\n        else:\n            return render(request, 'account/login.html', {'error': 'Geçersiz kullanıcı bilgileri'})",
+        "detail": "blogapp.account.views",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "blogapp.blog.migrations.0001_initial",
+        "description": "blogapp.blog.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Blog',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('title', models.CharField(max_length=200)),",
+        "detail": "blogapp.blog.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "blogapp.blog.migrations.0002_blog_slug",
+        "description": "blogapp.blog.migrations.0002_blog_slug",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('blog', '0001_initial'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='blog',\n            name='slug',\n            field=models.SlugField(null=True, unique=True),\n        ),",
+        "detail": "blogapp.blog.migrations.0002_blog_slug",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "blogapp.blog.migrations.0003_alter_blog_slug",
+        "description": "blogapp.blog.migrations.0003_alter_blog_slug",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('blog', '0002_blog_slug'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='blog',\n            name='slug',\n            field=models.SlugField(blank=True, unique=True),\n        ),",
+        "detail": "blogapp.blog.migrations.0003_alter_blog_slug",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "blogapp.blog.migrations.0004_category_slug_alter_blog_slug",
+        "description": "blogapp.blog.migrations.0004_category_slug_alter_blog_slug",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('blog', '0003_alter_blog_slug'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='category',\n            name='slug',\n            field=models.SlugField(blank=True, editable=False, null=True, unique=True),\n        ),",
+        "detail": "blogapp.blog.migrations.0004_category_slug_alter_blog_slug",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "blogapp.blog.migrations.0005_alter_category_slug",
+        "description": "blogapp.blog.migrations.0005_alter_category_slug",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('blog', '0004_category_slug_alter_blog_slug'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='category',\n            name='slug',\n            field=models.SlugField(blank=True, editable=False, unique=True),\n        ),",
+        "detail": "blogapp.blog.migrations.0005_alter_category_slug",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "blogapp.blog.migrations.0006_alter_blog_image",
+        "description": "blogapp.blog.migrations.0006_alter_blog_image",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('blog', '0005_alter_category_slug'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='blog',\n            name='image',\n            field=models.ImageField(upload_to='blogs'),\n        ),",
+        "detail": "blogapp.blog.migrations.0006_alter_blog_image",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "blogapp.blog.migrations.0007_alter_blog_description",
+        "description": "blogapp.blog.migrations.0007_alter_blog_description",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('blog', '0006_alter_blog_image'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='blog',\n            name='description',\n            field=ckeditor.fields.RichTextField(),\n        ),",
+        "detail": "blogapp.blog.migrations.0007_alter_blog_description",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "blogapp.blog.migrations.0008_blog_category",
+        "description": "blogapp.blog.migrations.0008_blog_category",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('blog', '0007_alter_blog_description'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='blog',\n            name='category',\n            field=models.ForeignKey(null=True, on_delete=django.db.models.deletion.CASCADE, to='blog.category'),\n        ),",
+        "detail": "blogapp.blog.migrations.0008_blog_category",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "blogapp.blog.migrations.0009_alter_blog_category",
+        "description": "blogapp.blog.migrations.0009_alter_blog_category",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('blog', '0008_blog_category'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='blog',\n            name='category',\n            field=models.ForeignKey(default=1, on_delete=django.db.models.deletion.CASCADE, to='blog.category'),\n        ),",
+        "detail": "blogapp.blog.migrations.0009_alter_blog_category",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "blogapp.blog.migrations.0010_remove_blog_category_blog_categories",
+        "description": "blogapp.blog.migrations.0010_remove_blog_category_blog_categories",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('blog', '0009_alter_blog_category'),\n    ]\n    operations = [\n        migrations.RemoveField(\n            model_name='blog',\n            name='category',\n        ),\n        migrations.AddField(",
+        "detail": "blogapp.blog.migrations.0010_remove_blog_category_blog_categories",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "blogapp.blog.migrations.0011_auto_20250325_1543",
+        "description": "blogapp.blog.migrations.0011_auto_20250325_1543",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n        ('blog', '0010_remove_blog_category_blog_categories'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='blog',\n            name='categories',\n            field=models.ManyToManyField(blank=True, to='blog.Category'),",
+        "detail": "blogapp.blog.migrations.0011_auto_20250325_1543",
+        "documentation": {}
+    },
+    {
+        "label": "BlogAdmin",
+        "kind": 6,
+        "importPath": "blogapp.blog.admin",
+        "description": "blogapp.blog.admin",
+        "peekOfCode": "class BlogAdmin(admin.ModelAdmin):\n    list_display = (\"title\", \"is_active\",\"is_home\", \"slug\",\"selected_categories\",)\n    list_editable = (\"is_active\",\"is_home\")\n    search_fields = (\"title\",\"description\")\n    readonly_fields = [\"slug\"]\n    list_filter = (\"is_active\", \"is_home\",\"categories\",)\n    def selected_categories(self, obj):\n        html = \"\"\n        for category in obj.categories.all():\n            html += \"<li>\" + category.name + \"</li>\"",
+        "detail": "blogapp.blog.admin",
+        "documentation": {}
+    },
+    {
+        "label": "BlogConfig",
+        "kind": 6,
+        "importPath": "blogapp.blog.apps",
+        "description": "blogapp.blog.apps",
+        "peekOfCode": "class BlogConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'blog'",
+        "detail": "blogapp.blog.apps",
+        "documentation": {}
+    },
+    {
+        "label": "HomeworkForm",
+        "kind": 6,
+        "importPath": "blogapp.blog.forms",
+        "description": "blogapp.blog.forms",
+        "peekOfCode": "class HomeworkForm(forms.ModelForm):\n    class Meta:\n        model = Homework\n        fields = ['title', 'description', 'file']",
+        "detail": "blogapp.blog.forms",
+        "documentation": {}
+    },
+    {
+        "label": "Homework",
+        "kind": 6,
+        "importPath": "blogapp.blog.models",
+        "description": "blogapp.blog.models",
+        "peekOfCode": "class Homework(models.Model):\n    title = models.CharField(max_length=200)\n    description = models.TextField()\n    created_at = models.DateTimeField(auto_now_add=True)\n    file = models.FileField(upload_to='homeworks/', blank=True, null=True)\n    student = models.ForeignKey(User, on_delete=models.CASCADE)\n    def __str__(self):\n        return f\"{self.title} - {self.student.username}\"\nclass Category(models.Model):\n    name = models.CharField(max_length=150)",
+        "detail": "blogapp.blog.models",
+        "documentation": {}
+    },
+    {
+        "label": "Category",
+        "kind": 6,
+        "importPath": "blogapp.blog.models",
+        "description": "blogapp.blog.models",
+        "peekOfCode": "class Category(models.Model):\n    name = models.CharField(max_length=150)\n    slug = models.SlugField(null=False, blank=True,unique=True, db_index=True, editable=False)\n    def save(self, *args, **kwargs):\n        self.slug = slugify(self.name)#nesnenin title ına göre slugify nesne oluşturacak\n        super().save(*args, **kwargs)\n    def __str__(self):\n        return self.name\nclass Blog(models.Model):\n    title = models.CharField(max_length=200)",
+        "detail": "blogapp.blog.models",
+        "documentation": {}
+    },
+    {
+        "label": "Blog",
+        "kind": 6,
+        "importPath": "blogapp.blog.models",
+        "description": "blogapp.blog.models",
+        "peekOfCode": "class Blog(models.Model):\n    title = models.CharField(max_length=200)\n    image = models.ImageField(upload_to=\"blogs\")\n    description = RichTextField()\n    is_active = models.BooleanField(default=False)\n    is_home = models.BooleanField(default=False)\n    slug = models.SlugField(null=False,blank=True, unique=True, db_index=True, editable=False)\n    categories = models.ManyToManyField(Category, blank=True)\n    #category = models.ForeignKey(Category, default=1,on_delete=models.CASCADE) #CASCADE İLE KATEGORİSİ OLMAYAN BLOGLAR SİLİNir.\n    #set_null ile null olarak kalabilirler.#set_default ile default bir değer belirleriz, silinen kategori için bu default u alır.",
+        "detail": "blogapp.blog.models",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "blogapp.blog.urls",
+        "description": "blogapp.blog.urls",
+        "peekOfCode": "urlpatterns = [\n    path(\"\", views.index, name=\"home\"),\n    path(\"index\", views.index),\n    path('homework/create/', views.homework_create, name='homework_create'),\n    path('homework/list/', views.homework_list, name='homework_list'),\n    path('homework/<int:id>/edit/', views.homework_edit, name='homework_edit'),\n    path('homework/<int:id>/delete/', views.homework_delete, name='homework_delete'),\n    path('homework/<int:id>/', views.homework_detail, name='homework_detail'),\n    path(\"blogs\", views.blogs, name=\"blogs\"),\n    path(\"category/<slug:slug>\", views.blogs_by_category, name=\"blogs_by_category\"),",
+        "detail": "blogapp.blog.urls",
+        "documentation": {}
+    },
+    {
+        "label": "homework_create",
+        "kind": 2,
+        "importPath": "blogapp.blog.views",
+        "description": "blogapp.blog.views",
+        "peekOfCode": "def homework_create(request):\n    if request.method == 'POST':\n        form = HomeworkForm(request.POST, request.FILES)\n        if form.is_valid():\n            homework = form.save(commit=False)\n            homework.student = request.user\n            homework.save()\n            return redirect('homework_list')  # Gösterim sayfasına yönlendir\n    else:\n        form = HomeworkForm()",
+        "detail": "blogapp.blog.views",
+        "documentation": {}
+    },
+    {
+        "label": "homework_list",
+        "kind": 2,
+        "importPath": "blogapp.blog.views",
+        "description": "blogapp.blog.views",
+        "peekOfCode": "def homework_list(request):\n    if request.user.is_staff:\n        # Adminler tüm ödevleri görebilir\n        homeworks = Homework.objects.all().order_by('-created_at')\n    else:\n        # Öğrenciler sadece kendi ödevlerini görebilir\n        homeworks = Homework.objects.filter(student=request.user).order_by('-created_at')\n    return render(request, 'blog/homework_list.html', {'homeworks': homeworks})\n@login_required\ndef homework_edit(request, id):",
+        "detail": "blogapp.blog.views",
+        "documentation": {}
+    },
+    {
+        "label": "homework_edit",
+        "kind": 2,
+        "importPath": "blogapp.blog.views",
+        "description": "blogapp.blog.views",
+        "peekOfCode": "def homework_edit(request, id):\n    homework = Homework.objects.get(id=id, student=request.user)  # sadece kendi ödevini düzenleyebilir\n    if request.method == 'POST':\n        form = HomeworkForm(request.POST, request.FILES, instance=homework)\n        if form.is_valid():\n            form.save()\n            return redirect('homework_list')\n    else:\n        form = HomeworkForm(instance=homework)\n    return render(request, 'blog/homework_create.html', {'form': form})",
+        "detail": "blogapp.blog.views",
+        "documentation": {}
+    },
+    {
+        "label": "homework_delete",
+        "kind": 2,
+        "importPath": "blogapp.blog.views",
+        "description": "blogapp.blog.views",
+        "peekOfCode": "def homework_delete(request, id):\n    homework = Homework.objects.get(id=id, student=request.user)\n    if request.method == 'POST':\n        homework.delete()\n        return redirect('homework_list')\n    return render(request, 'blog/homework_confirm_delete.html', {'homework': homework})\n@login_required\ndef homework_detail(request, id):\n    if request.user.is_staff:\n        homework = get_object_or_404(Homework, id=id)",
+        "detail": "blogapp.blog.views",
+        "documentation": {}
+    },
+    {
+        "label": "homework_detail",
+        "kind": 2,
+        "importPath": "blogapp.blog.views",
+        "description": "blogapp.blog.views",
+        "peekOfCode": "def homework_detail(request, id):\n    if request.user.is_staff:\n        homework = get_object_or_404(Homework, id=id)\n    else:\n        homework = get_object_or_404(Homework, id=id, student=request.user)\n    return render(request, 'blog/homework_detail.html', {'homework': homework})\n# Create your views here.\ndef index(request):\n    context = {\n        \"blogs\": Blog.objects.filter(is_active=True, is_home=True),",
+        "detail": "blogapp.blog.views",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "blogapp.blog.views",
+        "description": "blogapp.blog.views",
+        "peekOfCode": "def index(request):\n    context = {\n        \"blogs\": Blog.objects.filter(is_active=True, is_home=True),\n        \"categories\": Category.objects.all()\n    }\n    return render(request, \"blog/index.html\", context)\ndef blogs(request):\n    context = {\n        \"blogs\": Blog.objects.filter(is_active=True),\n        \"categories\": Category.objects.all()",
+        "detail": "blogapp.blog.views",
+        "documentation": {}
+    },
+    {
+        "label": "blogs",
+        "kind": 2,
+        "importPath": "blogapp.blog.views",
+        "description": "blogapp.blog.views",
+        "peekOfCode": "def blogs(request):\n    context = {\n        \"blogs\": Blog.objects.filter(is_active=True),\n        \"categories\": Category.objects.all()\n    }\n    return render(request, \"blog/blogs.html\", context)\ndef blog_details(request, slug):\n    blog = Blog.objects.get(slug=slug)\n    return render(request, \"blog/blog-details.html\", {\n        \"blog\": blog",
+        "detail": "blogapp.blog.views",
+        "documentation": {}
+    },
+    {
+        "label": "blog_details",
+        "kind": 2,
+        "importPath": "blogapp.blog.views",
+        "description": "blogapp.blog.views",
+        "peekOfCode": "def blog_details(request, slug):\n    blog = Blog.objects.get(slug=slug)\n    return render(request, \"blog/blog-details.html\", {\n        \"blog\": blog\n    })\n#def blogs_by_category(request, slug):\n#    context = {\n#        \"blogs\": Category.objects.get(slug=slug).blog_set.filter(is_active=True),\n#        #\"blogs\": Blog.objects.filter(is_active=True, category__slug=slug),\n#        \"categories\": Category.objects.all(),",
+        "detail": "blogapp.blog.views",
+        "documentation": {}
+    },
+    {
+        "label": "blogs_by_category",
+        "kind": 2,
+        "importPath": "blogapp.blog.views",
+        "description": "blogapp.blog.views",
+        "peekOfCode": "def blogs_by_category(request, slug):\n    category = Category.objects.get(slug=slug)  # Seçili kategoriyi al\n    context = {\n        \"blogs\": category.blog_set.filter(is_active=True),  # Seçili kategorinin aktif bloglarını al\n        \"categories\": Category.objects.all(),  # Tüm kategorileri al\n        \"selected_category\": category  # Seçili kategoriyi tam nesne olarak gönder\n    }\n    return render(request, \"blog/blogs.html\", context)",
+        "detail": "blogapp.blog.views",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "blogapp.blogapp.asgi",
+        "description": "blogapp.blogapp.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "blogapp.blogapp.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "blogapp.blogapp.settings",
+        "description": "blogapp.blogapp.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\n#SECRET_KEY = 'django-insecure-6d1_z9236#webyq^rhug!v0w^6%2cup&jxsq&ir!p$e!hczog'\n#SECRET_KEY = 'django-insecure-_z1mh$duegv8sq#n9metrwk=b=85s0#%1@^g)n&9j=13houq7='\n#SECRET_KEY = getenv(\"SECRET_KEY\")\nSECRET_KEY = getenv(\"SECRET_KEY\", 'django-insecure-default') \n# SECURITY WARNING: don't run with debug turned on in production!\n#DEBUG = True",
+        "detail": "blogapp.blogapp.settings",
+        "documentation": {}
+    },
+    {
+        "label": "#SECRET_KEY",
+        "kind": 5,
+        "importPath": "blogapp.blogapp.settings",
+        "description": "blogapp.blogapp.settings",
+        "peekOfCode": "#SECRET_KEY = 'django-insecure-6d1_z9236#webyq^rhug!v0w^6%2cup&jxsq&ir!p$e!hczog'\n#SECRET_KEY = 'django-insecure-_z1mh$duegv8sq#n9metrwk=b=85s0#%1@^g)n&9j=13houq7='\n#SECRET_KEY = getenv(\"SECRET_KEY\")\nSECRET_KEY = getenv(\"SECRET_KEY\", 'django-insecure-default') \n# SECURITY WARNING: don't run with debug turned on in production!\n#DEBUG = True\n#DEBUG = getenv(\"IS_DEVELOPMENT\", True)\n#ALLOWED_HOSTS = [ getenv(\"APP_HOST\")]\n#ALLOWED_HOSTS = ['127.0.0.1', 'localhost']\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com', 'localhost', '127.0.0.1']",
+        "detail": "blogapp.blogapp.settings",
+        "documentation": {}
+    },
+    {
+        "label": "#SECRET_KEY",
+        "kind": 5,
+        "importPath": "blogapp.blogapp.settings",
+        "description": "blogapp.blogapp.settings",
+        "peekOfCode": "#SECRET_KEY = 'django-insecure-_z1mh$duegv8sq#n9metrwk=b=85s0#%1@^g)n&9j=13houq7='\n#SECRET_KEY = getenv(\"SECRET_KEY\")\nSECRET_KEY = getenv(\"SECRET_KEY\", 'django-insecure-default') \n# SECURITY WARNING: don't run with debug turned on in production!\n#DEBUG = True\n#DEBUG = getenv(\"IS_DEVELOPMENT\", True)\n#ALLOWED_HOSTS = [ getenv(\"APP_HOST\")]\n#ALLOWED_HOSTS = ['127.0.0.1', 'localhost']\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com', 'localhost', '127.0.0.1']\nDEBUG = getenv(\"DEBUG\", \"False\") == \"True\"",
+        "detail": "blogapp.blogapp.settings",
+        "documentation": {}
+    },
+    {
+        "label": "#SECRET_KEY",
+        "kind": 5,
+        "importPath": "blogapp.blogapp.settings",
+        "description": "blogapp.blogapp.settings",
+        "peekOfCode": "#SECRET_KEY = getenv(\"SECRET_KEY\")\nSECRET_KEY = getenv(\"SECRET_KEY\", 'django-insecure-default') \n# SECURITY WARNING: don't run with debug turned on in production!\n#DEBUG = True\n#DEBUG = getenv(\"IS_DEVELOPMENT\", True)\n#ALLOWED_HOSTS = [ getenv(\"APP_HOST\")]\n#ALLOWED_HOSTS = ['127.0.0.1', 'localhost']\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com', 'localhost', '127.0.0.1']\nDEBUG = getenv(\"DEBUG\", \"False\") == \"True\"\nALLOWED_HOSTS = getenv(\"ALLOWED_HOSTS\", \".elasticbeanstalk.com\").split(\",\")",
+        "detail": "blogapp.blogapp.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "blogapp.blogapp.settings",
+        "description": "blogapp.blogapp.settings",
+        "peekOfCode": "SECRET_KEY = getenv(\"SECRET_KEY\", 'django-insecure-default') \n# SECURITY WARNING: don't run with debug turned on in production!\n#DEBUG = True\n#DEBUG = getenv(\"IS_DEVELOPMENT\", True)\n#ALLOWED_HOSTS = [ getenv(\"APP_HOST\")]\n#ALLOWED_HOSTS = ['127.0.0.1', 'localhost']\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com', 'localhost', '127.0.0.1']\nDEBUG = getenv(\"DEBUG\", \"False\") == \"True\"\nALLOWED_HOSTS = getenv(\"ALLOWED_HOSTS\", \".elasticbeanstalk.com\").split(\",\")\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com']",
+        "detail": "blogapp.blogapp.settings",
+        "documentation": {}
+    },
+    {
+        "label": "#DEBUG",
+        "kind": 5,
+        "importPath": "blogapp.blogapp.settings",
+        "description": "blogapp.blogapp.settings",
+        "peekOfCode": "#DEBUG = True\n#DEBUG = getenv(\"IS_DEVELOPMENT\", True)\n#ALLOWED_HOSTS = [ getenv(\"APP_HOST\")]\n#ALLOWED_HOSTS = ['127.0.0.1', 'localhost']\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com', 'localhost', '127.0.0.1']\nDEBUG = getenv(\"DEBUG\", \"False\") == \"True\"\nALLOWED_HOSTS = getenv(\"ALLOWED_HOSTS\", \".elasticbeanstalk.com\").split(\",\")\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com']\ngetenv()\n# Application definition",
+        "detail": "blogapp.blogapp.settings",
+        "documentation": {}
+    },
+    {
+        "label": "#DEBUG",
+        "kind": 5,
+        "importPath": "blogapp.blogapp.settings",
+        "description": "blogapp.blogapp.settings",
+        "peekOfCode": "#DEBUG = getenv(\"IS_DEVELOPMENT\", True)\n#ALLOWED_HOSTS = [ getenv(\"APP_HOST\")]\n#ALLOWED_HOSTS = ['127.0.0.1', 'localhost']\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com', 'localhost', '127.0.0.1']\nDEBUG = getenv(\"DEBUG\", \"False\") == \"True\"\nALLOWED_HOSTS = getenv(\"ALLOWED_HOSTS\", \".elasticbeanstalk.com\").split(\",\")\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com']\ngetenv()\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "blogapp.blogapp.settings",
+        "documentation": {}
+    },
+    {
+        "label": "#ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "blogapp.blogapp.settings",
+        "description": "blogapp.blogapp.settings",
+        "peekOfCode": "#ALLOWED_HOSTS = [ getenv(\"APP_HOST\")]\n#ALLOWED_HOSTS = ['127.0.0.1', 'localhost']\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com', 'localhost', '127.0.0.1']\nDEBUG = getenv(\"DEBUG\", \"False\") == \"True\"\nALLOWED_HOSTS = getenv(\"ALLOWED_HOSTS\", \".elasticbeanstalk.com\").split(\",\")\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com']\ngetenv()\n# Application definition\nINSTALLED_APPS = [\n    'blog',",
+        "detail": "blogapp.blogapp.settings",
+        "documentation": {}
+    },
+    {
+        "label": "#ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "blogapp.blogapp.settings",
+        "description": "blogapp.blogapp.settings",
+        "peekOfCode": "#ALLOWED_HOSTS = ['127.0.0.1', 'localhost']\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com', 'localhost', '127.0.0.1']\nDEBUG = getenv(\"DEBUG\", \"False\") == \"True\"\nALLOWED_HOSTS = getenv(\"ALLOWED_HOSTS\", \".elasticbeanstalk.com\").split(\",\")\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com']\ngetenv()\n# Application definition\nINSTALLED_APPS = [\n    'blog',\n    'account',",
+        "detail": "blogapp.blogapp.settings",
+        "documentation": {}
+    },
+    {
+        "label": "#ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "blogapp.blogapp.settings",
+        "description": "blogapp.blogapp.settings",
+        "peekOfCode": "#ALLOWED_HOSTS = ['.elasticbeanstalk.com', 'localhost', '127.0.0.1']\nDEBUG = getenv(\"DEBUG\", \"False\") == \"True\"\nALLOWED_HOSTS = getenv(\"ALLOWED_HOSTS\", \".elasticbeanstalk.com\").split(\",\")\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com']\ngetenv()\n# Application definition\nINSTALLED_APPS = [\n    'blog',\n    'account',\n    'django.contrib.admin',",
+        "detail": "blogapp.blogapp.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "blogapp.blogapp.settings",
+        "description": "blogapp.blogapp.settings",
+        "peekOfCode": "DEBUG = getenv(\"DEBUG\", \"False\") == \"True\"\nALLOWED_HOSTS = getenv(\"ALLOWED_HOSTS\", \".elasticbeanstalk.com\").split(\",\")\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com']\ngetenv()\n# Application definition\nINSTALLED_APPS = [\n    'blog',\n    'account',\n    'django.contrib.admin',\n    'django.contrib.auth',",
+        "detail": "blogapp.blogapp.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "blogapp.blogapp.settings",
+        "description": "blogapp.blogapp.settings",
+        "peekOfCode": "ALLOWED_HOSTS = getenv(\"ALLOWED_HOSTS\", \".elasticbeanstalk.com\").split(\",\")\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com']\ngetenv()\n# Application definition\nINSTALLED_APPS = [\n    'blog',\n    'account',\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',",
+        "detail": "blogapp.blogapp.settings",
+        "documentation": {}
+    },
+    {
+        "label": "#ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "blogapp.blogapp.settings",
+        "description": "blogapp.blogapp.settings",
+        "peekOfCode": "#ALLOWED_HOSTS = ['.elasticbeanstalk.com']\ngetenv()\n# Application definition\nINSTALLED_APPS = [\n    'blog',\n    'account',\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "blogapp.blogapp.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "blogapp.blogapp.settings",
+        "description": "blogapp.blogapp.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'blog',\n    'account',\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'ckeditor'",
+        "detail": "blogapp.blogapp.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "blogapp.blogapp.settings",
+        "description": "blogapp.blogapp.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'blogapp.urls'",
+        "detail": "blogapp.blogapp.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "blogapp.blogapp.settings",
+        "description": "blogapp.blogapp.settings",
+        "peekOfCode": "ROOT_URLCONF = 'blogapp.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [\n            BASE_DIR / \"templates\"\n            ],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [",
+        "detail": "blogapp.blogapp.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "blogapp.blogapp.settings",
+        "description": "blogapp.blogapp.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [\n            BASE_DIR / \"templates\"\n            ],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',",
+        "detail": "blogapp.blogapp.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "blogapp.blogapp.settings",
+        "description": "blogapp.blogapp.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'blogapp.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/5.1/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation",
+        "detail": "blogapp.blogapp.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "blogapp.blogapp.settings",
+        "description": "blogapp.blogapp.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "detail": "blogapp.blogapp.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "blogapp.blogapp.settings",
+        "description": "blogapp.blogapp.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "blogapp.blogapp.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "blogapp.blogapp.settings",
+        "description": "blogapp.blogapp.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [\n    BASE_DIR / \"static\"\n]",
+        "detail": "blogapp.blogapp.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "blogapp.blogapp.settings",
+        "description": "blogapp.blogapp.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [\n    BASE_DIR / \"static\"\n]\nSTATIC_ROOT = BASE_DIR / \"staticfiles\"",
+        "detail": "blogapp.blogapp.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "blogapp.blogapp.settings",
+        "description": "blogapp.blogapp.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [\n    BASE_DIR / \"static\"\n]\nSTATIC_ROOT = BASE_DIR / \"staticfiles\"\nMEDIA_ROOT = BASE_DIR / \"uploads\"",
+        "detail": "blogapp.blogapp.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "blogapp.blogapp.settings",
+        "description": "blogapp.blogapp.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [\n    BASE_DIR / \"static\"\n]\nSTATIC_ROOT = BASE_DIR / \"staticfiles\"\nMEDIA_ROOT = BASE_DIR / \"uploads\"\nMEDIA_URL = \"/images/\"",
+        "detail": "blogapp.blogapp.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "blogapp.blogapp.settings",
+        "description": "blogapp.blogapp.settings",
+        "peekOfCode": "STATIC_URL = '/static/'\nSTATICFILES_DIRS = [\n    BASE_DIR / \"static\"\n]\nSTATIC_ROOT = BASE_DIR / \"staticfiles\"\nMEDIA_ROOT = BASE_DIR / \"uploads\"\nMEDIA_URL = \"/images/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "blogapp.blogapp.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATICFILES_DIRS",
+        "kind": 5,
+        "importPath": "blogapp.blogapp.settings",
+        "description": "blogapp.blogapp.settings",
+        "peekOfCode": "STATICFILES_DIRS = [\n    BASE_DIR / \"static\"\n]\nSTATIC_ROOT = BASE_DIR / \"staticfiles\"\nMEDIA_ROOT = BASE_DIR / \"uploads\"\nMEDIA_URL = \"/images/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nLOGIN_URL = '/account/login/'",
+        "detail": "blogapp.blogapp.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_ROOT",
+        "kind": 5,
+        "importPath": "blogapp.blogapp.settings",
+        "description": "blogapp.blogapp.settings",
+        "peekOfCode": "STATIC_ROOT = BASE_DIR / \"staticfiles\"\nMEDIA_ROOT = BASE_DIR / \"uploads\"\nMEDIA_URL = \"/images/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nLOGIN_URL = '/account/login/'\nLOGIN_REDIRECT_URL = '/homework/list/'\nLOGOUT_REDIRECT_URL = '/'",
+        "detail": "blogapp.blogapp.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_ROOT",
+        "kind": 5,
+        "importPath": "blogapp.blogapp.settings",
+        "description": "blogapp.blogapp.settings",
+        "peekOfCode": "MEDIA_ROOT = BASE_DIR / \"uploads\"\nMEDIA_URL = \"/images/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nLOGIN_URL = '/account/login/'\nLOGIN_REDIRECT_URL = '/homework/list/'\nLOGOUT_REDIRECT_URL = '/'",
+        "detail": "blogapp.blogapp.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_URL",
+        "kind": 5,
+        "importPath": "blogapp.blogapp.settings",
+        "description": "blogapp.blogapp.settings",
+        "peekOfCode": "MEDIA_URL = \"/images/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nLOGIN_URL = '/account/login/'\nLOGIN_REDIRECT_URL = '/homework/list/'\nLOGOUT_REDIRECT_URL = '/'",
+        "detail": "blogapp.blogapp.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "blogapp.blogapp.settings",
+        "description": "blogapp.blogapp.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nLOGIN_URL = '/account/login/'\nLOGIN_REDIRECT_URL = '/homework/list/'\nLOGOUT_REDIRECT_URL = '/'",
+        "detail": "blogapp.blogapp.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LOGIN_URL",
+        "kind": 5,
+        "importPath": "blogapp.blogapp.settings",
+        "description": "blogapp.blogapp.settings",
+        "peekOfCode": "LOGIN_URL = '/account/login/'\nLOGIN_REDIRECT_URL = '/homework/list/'\nLOGOUT_REDIRECT_URL = '/'",
+        "detail": "blogapp.blogapp.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LOGIN_REDIRECT_URL",
+        "kind": 5,
+        "importPath": "blogapp.blogapp.settings",
+        "description": "blogapp.blogapp.settings",
+        "peekOfCode": "LOGIN_REDIRECT_URL = '/homework/list/'\nLOGOUT_REDIRECT_URL = '/'",
+        "detail": "blogapp.blogapp.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LOGOUT_REDIRECT_URL",
+        "kind": 5,
+        "importPath": "blogapp.blogapp.settings",
+        "description": "blogapp.blogapp.settings",
+        "peekOfCode": "LOGOUT_REDIRECT_URL = '/'",
+        "detail": "blogapp.blogapp.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "blogapp.blogapp.urls",
+        "description": "blogapp.blogapp.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('', include('blog.urls')),# user yazarsak url lerin hepsi user içerir. http://127.0.0.1:8000/user/blogs\n    path('account/', include('account.urls')),\n] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT) \\\n    + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)",
+        "detail": "blogapp.blogapp.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "blogapp.blogapp.wsgi",
+        "description": "blogapp.blogapp.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "blogapp.blogapp.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "blogapp.manage",
+        "description": "blogapp.manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'blogapp.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "blogapp.manage",
+        "documentation": {}
+    }
+]

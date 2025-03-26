@@ -61,3 +61,15 @@ def register_request(request):
 def logout_request(request):
     logout(request)
     return redirect("home")
+
+def login_view(request):
+    if request.method == 'POST':
+        username = request.POST['username']
+        password = request.POST['password']
+        user = authenticate(request, username=username, password=password)
+        if user is not None:
+            login(request, user)
+            return redirect('homework_list')  # veya 'home'
+        else:
+            return render(request, 'account/login.html', {'error': 'Geçersiz kullanıcı bilgileri'})
+    return render(request, 'account/login.html')

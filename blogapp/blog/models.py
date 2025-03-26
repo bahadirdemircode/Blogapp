@@ -1,6 +1,20 @@
 from django.db import models
 from django.utils.text import slugify
 from ckeditor.fields import RichTextField
+from django import forms
+from django.db import models
+from django.contrib.auth.models import User
+
+class Homework(models.Model):
+    title = models.CharField(max_length=200)
+    description = models.TextField()
+    created_at = models.DateTimeField(auto_now_add=True)
+    file = models.FileField(upload_to='homeworks/', blank=True, null=True)
+    student = models.ForeignKey(User, on_delete=models.CASCADE)
+
+    def __str__(self):
+        return f"{self.title} - {self.student.username}"
+
 
 class Category(models.Model):
     name = models.CharField(max_length=150)

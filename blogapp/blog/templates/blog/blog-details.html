@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 {% load static %}
-{% block title %} Blog Details {% endblock %}
+{% block title %} İÇERİK {% endblock %}
 
 {%  block content%}
 
@@ -14,7 +14,11 @@
                             <h3 class="card-title mb-3">
                                     {{ blog.title|title }}
                             </h3>
-                            <img src="{{ blog.image.url }}" alt="django" class="img-fluid" style="float:left; margin-right:20px; margin-bottom: 20px;">
+                            <!--<img src="{{ blog.image.url }}" alt="django" class="img-fluid" style="float:left; margin-right:20px; margin-bottom: 20px;">-->
+                            <img src="{{ blog.image.url }}" alt="django" class="img-fluid blog-image" style="float:left; margin-right:40px; margin-bottom: 20px;">
+
+                            
+
                             <p class="card-text"> {{ blog.description|safe }} </p>
                         </div>
                     </div>

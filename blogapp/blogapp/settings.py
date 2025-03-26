@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 """
 
 from pathlib import Path
+import os
 from os import getenv
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -21,18 +22,24 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
+#SECRET_KEY = 'django-insecure-6d1_z9236#webyq^rhug!v0w^6%2cup&jxsq&ir!p$e!hczog'
 #SECRET_KEY = 'django-insecure-_z1mh$duegv8sq#n9metrwk=b=85s0#%1@^g)n&9j=13houq7='
-SECRET_KEY = getenv("SECRET_KEY")
+#SECRET_KEY = getenv("SECRET_KEY")
+SECRET_KEY = getenv("SECRET_KEY", 'django-insecure-default') 
 
 # SECURITY WARNING: don't run with debug turned on in production!
 #DEBUG = True
-DEBUG = getenv("IS_DEVELOPMENT", True)
+#DEBUG = getenv("IS_DEVELOPMENT", True)
 
-ALLOWED_HOSTS = [
-    getenv("APP_HOST")
-]
+#ALLOWED_HOSTS = [ getenv("APP_HOST")]
 
+#ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
+#ALLOWED_HOSTS = ['.elasticbeanstalk.com', 'localhost', '127.0.0.1']
+DEBUG = getenv("DEBUG", "False") == "True"
+ALLOWED_HOSTS = getenv("ALLOWED_HOSTS", ".elasticbeanstalk.com").split(",")
+#ALLOWED_HOSTS = ['.elasticbeanstalk.com']
 
+getenv()
 # Application definition
 
 INSTALLED_APPS = [
@@ -72,6 +79,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'django.template.context_processors.tz',
             ],
         },
     },
@@ -130,6 +138,7 @@ STATICFILES_DIRS = [
     BASE_DIR / "static"
 ]
 
+
 STATIC_ROOT = BASE_DIR / "staticfiles"
 
 MEDIA_ROOT = BASE_DIR / "uploads"
@@ -139,3 +148,9 @@ MEDIA_URL = "/images/"
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+LOGIN_URL = '/account/login/'
+LOGIN_REDIRECT_URL = '/homework/list/'
+LOGOUT_REDIRECT_URL = '/'
+
+
