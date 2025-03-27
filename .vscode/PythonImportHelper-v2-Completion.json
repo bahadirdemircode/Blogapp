@@ -499,6 +499,22 @@
         "documentation": {}
     },
     {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "serve",
+        "importPath": "waitress",
+        "description": "waitress",
+        "isExtraImport": true,
+        "detail": "waitress",
+        "documentation": {}
+    },
+    {
         "label": "get_asgi_application",
         "importPath": "django.core.asgi",
         "description": "django.core.asgi",
@@ -520,22 +536,6 @@
         "description": "django.conf.urls.static",
         "isExtraImport": true,
         "detail": "django.conf.urls.static",
-        "documentation": {}
-    },
-    {
-        "label": "get_wsgi_application",
-        "importPath": "django.core.wsgi",
-        "description": "django.core.wsgi",
-        "isExtraImport": true,
-        "detail": "django.core.wsgi",
-        "documentation": {}
-    },
-    {
-        "label": "serve",
-        "importPath": "waitress",
-        "description": "waitress",
-        "isExtraImport": true,
-        "detail": "waitress",
         "documentation": {}
     },
     {
@@ -842,6 +842,15 @@
         "description": "blogapp.blog.views",
         "peekOfCode": "def blogs_by_category(request, slug):\n    category = Category.objects.get(slug=slug)  # Seçili kategoriyi al\n    context = {\n        \"blogs\": category.blog_set.filter(is_active=True),  # Seçili kategorinin aktif bloglarını al\n        \"categories\": Category.objects.all(),  # Tüm kategorileri al\n        \"selected_category\": category  # Seçili kategoriyi tam nesne olarak gönder\n    }\n    return render(request, \"blog/blogs.html\", context)",
         "detail": "blogapp.blog.views",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "blogapp.blogapp.blogapp.wsgi",
+        "description": "blogapp.blogapp.blogapp.wsgi",
+        "peekOfCode": "application = get_wsgi_application()\n# Waitress server için\nif __name__ == '__main__':\n    serve(application, host='0.0.0.0', port=8000)",
+        "detail": "blogapp.blogapp.blogapp.wsgi",
         "documentation": {}
     },
     {
@@ -1193,15 +1202,6 @@
         "description": "blogapp.blogapp.urls",
         "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('', include('blog.urls')),# user yazarsak url lerin hepsi user içerir. http://127.0.0.1:8000/user/blogs\n    path('account/', include('account.urls')),\n] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT) \\\n    + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)",
         "detail": "blogapp.blogapp.urls",
-        "documentation": {}
-    },
-    {
-        "label": "application",
-        "kind": 5,
-        "importPath": "blogapp.blogapp.wsgi",
-        "description": "blogapp.blogapp.wsgi",
-        "peekOfCode": "application = get_wsgi_application()\n# Waitress server için\nif __name__ == '__main__':\n    serve(application, host='0.0.0.0', port=8000)",
-        "detail": "blogapp.blogapp.wsgi",
         "documentation": {}
     },
     {
