@@ -3,3 +3,22 @@
 .elasticbeanstalk/*
 !.elasticbeanstalk/*.cfg.yml
 !.elasticbeanstalk/*.global.yml
+
+# Veritabanını hariç tut
+db.sqlite3
+
+# __pycache__ gibi gereksiz dosyaları eklememek için
+__pycache__/
+*.pyc
+*.pyo
+
+# Statik ve medya dosyalarını hariç tut
+staticfiles/
+uploads/
+
+# Çalışma dosyaları (log, zip, backup)
+*.log
+*.zip
+
+# Ortam değişkenleri (SECRET_KEY gibi şeyleri buradan yönet)
+.env
