@@ -52,6 +52,7 @@ ALLOWED_HOSTS = ['.onrender.com', 'localhost', '127.0.0.1']
 # Application definition
 
 INSTALLED_APPS = [
+    'blogapp',
     'blogapp.blog',
     'blogapp.account',
     'django.contrib.admin',
@@ -60,8 +61,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'ckeditor'
-    'blogapp.blogapp'
+    'ckeditor',
+    
 ]
 
 MIDDLEWARE = [
