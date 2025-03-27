@@ -24,6 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 #SECRET_KEY = 'django-insecure-6d1_z9236#webyq^rhug!v0w^6%2cup&jxsq&ir!p$e!hczog'
 #SECRET_KEY = 'django-insecure-_z1mh$duegv8sq#n9metrwk=b=85s0#%1@^g)n&9j=13houq7='
+SECRET_KEY = 'niqqf=ju_3a0iv4z(u3vhk=6zt*y_g#2ax*)%-yqe2oi)5ze^6'
 #SECRET_KEY = getenv("SECRET_KEY")
 #SECRET_KEY = getenv("SECRET_KEY", 'django-insecure-default') 
 
@@ -41,7 +42,8 @@ SECRET_KEY = getenv("SECRET_KEY", "default-fallback-key")
 #ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
 #ALLOWED_HOSTS = ['.elasticbeanstalk.com', 'localhost', '127.0.0.1']
 DEBUG = os.getenv("DEBUG", "False") == "True"
-ALLOWED_HOSTS = os.getenv("ALLOWED_HOSTS", ".elasticbeanstalk.com").split(",")
+#ALLOWED_HOSTS = os.getenv("ALLOWED_HOSTS", ".elasticbeanstalk.com").split(",")
+ALLOWED_HOSTS = ['.onrender.com', 'localhost', '127.0.0.1']
 
 #ALLOWED_HOSTS = ['.elasticbeanstalk.com']
 
