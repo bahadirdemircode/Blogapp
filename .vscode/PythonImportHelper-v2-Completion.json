@@ -24,6 +24,14 @@
         "documentation": {}
     },
     {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
         "label": "AppConfig",
         "importPath": "django.apps",
         "description": "django.apps",
@@ -280,15 +288,23 @@
         "documentation": {}
     },
     {
-        "label": "redirect",
-        "importPath": "django.shortcuts",
-        "description": "django.shortcuts",
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
         "isExtraImport": true,
-        "detail": "django.shortcuts",
+        "detail": "django.urls",
         "documentation": {}
     },
     {
-        "label": "render",
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
         "importPath": "django.shortcuts",
         "description": "django.shortcuts",
         "isExtraImport": true,
@@ -451,26 +467,26 @@
     },
     {
         "label": "Blog",
-        "importPath": "blog.models",
-        "description": "blog.models",
+        "importPath": "blogapp.blog.models",
+        "description": "blogapp.blog.models",
         "isExtraImport": true,
-        "detail": "blog.models",
+        "detail": "blogapp.blog.models",
         "documentation": {}
     },
     {
         "label": "Category",
-        "importPath": "blog.models",
-        "description": "blog.models",
+        "importPath": "blogapp.blog.models",
+        "description": "blogapp.blog.models",
         "isExtraImport": true,
-        "detail": "blog.models",
+        "detail": "blogapp.blog.models",
         "documentation": {}
     },
     {
         "label": "Homework",
-        "importPath": "blog.models",
-        "description": "blog.models",
+        "importPath": "blogapp.blog.models",
+        "description": "blogapp.blog.models",
         "isExtraImport": true,
-        "detail": "blog.models",
+        "detail": "blogapp.blog.models",
         "documentation": {}
     },
     {
@@ -515,15 +531,6 @@
         "documentation": {}
     },
     {
-        "label": "sys",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "sys",
-        "description": "sys",
-        "detail": "sys",
-        "documentation": {}
-    },
-    {
         "label": "Path",
         "importPath": "pathlib",
         "description": "pathlib",
@@ -545,6 +552,15 @@
         "description": "waitress",
         "isExtraImport": true,
         "detail": "waitress",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
         "documentation": {}
     },
     {
@@ -863,15 +879,6 @@
         "documentation": {}
     },
     {
-        "label": "main",
-        "kind": 2,
-        "importPath": "blogapp.manage",
-        "description": "blogapp.manage",
-        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'blogapp.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
-        "detail": "blogapp.manage",
-        "documentation": {}
-    },
-    {
         "label": "BASE_DIR",
         "kind": 5,
         "importPath": "blogapp.settings",
@@ -885,7 +892,7 @@
         "kind": 5,
         "importPath": "blogapp.settings",
         "description": "blogapp.settings",
-        "peekOfCode": "#SECRET_KEY = 'django-insecure-6d1_z9236#webyq^rhug!v0w^6%2cup&jxsq&ir!p$e!hczog'\n#SECRET_KEY = 'django-insecure-_z1mh$duegv8sq#n9metrwk=b=85s0#%1@^g)n&9j=13houq7='\nSECRET_KEY = 'niqqf=ju_3a0iv4z(u3vhk=6zt*y_g#2ax*)%-yqe2oi)5ze^6'\n#SECRET_KEY = getenv(\"SECRET_KEY\")\n#SECRET_KEY = getenv(\"SECRET_KEY\", 'django-insecure-default') \n#SECRET_KEY = os.getenv(\"SECRET_KEY\", \"default-value-if-missing\")\nSECRET_KEY = getenv(\"SECRET_KEY\", \"default-fallback-key\")\n# SECURITY WARNING: don't run with debug turned on in production!\n#DEBUG = True\n#DEBUG = getenv(\"IS_DEVELOPMENT\", True)",
+        "peekOfCode": "#SECRET_KEY = 'django-insecure-6d1_z9236#webyq^rhug!v0w^6%2cup&jxsq&ir!p$e!hczog'\n#SECRET_KEY = 'django-insecure-_z1mh$duegv8sq#n9metrwk=b=85s0#%1@^g)n&9j=13houq7='\nSECRET_KEY = 'niqqf=ju_3a0iv4z(u3vhk=6zt*y_g#2ax*)%-yqe2oi)5ze^6'\n#SECRET_KEY = getenv(\"SECRET_KEY\")\n#SECRET_KEY = getenv(\"SECRET_KEY\", 'django-insecure-default') \n#SECRET_KEY = os.getenv(\"SECRET_KEY\", \"default-value-if-missing\")\nSECRET_KEY = getenv(\"SECRET_KEY\", \"default-fallback-key\")\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\n#DEBUG = getenv(\"IS_DEVELOPMENT\", True)",
         "detail": "blogapp.settings",
         "documentation": {}
     },
@@ -894,7 +901,7 @@
         "kind": 5,
         "importPath": "blogapp.settings",
         "description": "blogapp.settings",
-        "peekOfCode": "#SECRET_KEY = 'django-insecure-_z1mh$duegv8sq#n9metrwk=b=85s0#%1@^g)n&9j=13houq7='\nSECRET_KEY = 'niqqf=ju_3a0iv4z(u3vhk=6zt*y_g#2ax*)%-yqe2oi)5ze^6'\n#SECRET_KEY = getenv(\"SECRET_KEY\")\n#SECRET_KEY = getenv(\"SECRET_KEY\", 'django-insecure-default') \n#SECRET_KEY = os.getenv(\"SECRET_KEY\", \"default-value-if-missing\")\nSECRET_KEY = getenv(\"SECRET_KEY\", \"default-fallback-key\")\n# SECURITY WARNING: don't run with debug turned on in production!\n#DEBUG = True\n#DEBUG = getenv(\"IS_DEVELOPMENT\", True)\n#ALLOWED_HOSTS = [ getenv(\"APP_HOST\")]",
+        "peekOfCode": "#SECRET_KEY = 'django-insecure-_z1mh$duegv8sq#n9metrwk=b=85s0#%1@^g)n&9j=13houq7='\nSECRET_KEY = 'niqqf=ju_3a0iv4z(u3vhk=6zt*y_g#2ax*)%-yqe2oi)5ze^6'\n#SECRET_KEY = getenv(\"SECRET_KEY\")\n#SECRET_KEY = getenv(\"SECRET_KEY\", 'django-insecure-default') \n#SECRET_KEY = os.getenv(\"SECRET_KEY\", \"default-value-if-missing\")\nSECRET_KEY = getenv(\"SECRET_KEY\", \"default-fallback-key\")\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\n#DEBUG = getenv(\"IS_DEVELOPMENT\", True)\n#ALLOWED_HOSTS = [ getenv(\"APP_HOST\")]",
         "detail": "blogapp.settings",
         "documentation": {}
     },
@@ -903,7 +910,7 @@
         "kind": 5,
         "importPath": "blogapp.settings",
         "description": "blogapp.settings",
-        "peekOfCode": "SECRET_KEY = 'niqqf=ju_3a0iv4z(u3vhk=6zt*y_g#2ax*)%-yqe2oi)5ze^6'\n#SECRET_KEY = getenv(\"SECRET_KEY\")\n#SECRET_KEY = getenv(\"SECRET_KEY\", 'django-insecure-default') \n#SECRET_KEY = os.getenv(\"SECRET_KEY\", \"default-value-if-missing\")\nSECRET_KEY = getenv(\"SECRET_KEY\", \"default-fallback-key\")\n# SECURITY WARNING: don't run with debug turned on in production!\n#DEBUG = True\n#DEBUG = getenv(\"IS_DEVELOPMENT\", True)\n#ALLOWED_HOSTS = [ getenv(\"APP_HOST\")]\n#ALLOWED_HOSTS = ['127.0.0.1', 'localhost']",
+        "peekOfCode": "SECRET_KEY = 'niqqf=ju_3a0iv4z(u3vhk=6zt*y_g#2ax*)%-yqe2oi)5ze^6'\n#SECRET_KEY = getenv(\"SECRET_KEY\")\n#SECRET_KEY = getenv(\"SECRET_KEY\", 'django-insecure-default') \n#SECRET_KEY = os.getenv(\"SECRET_KEY\", \"default-value-if-missing\")\nSECRET_KEY = getenv(\"SECRET_KEY\", \"default-fallback-key\")\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\n#DEBUG = getenv(\"IS_DEVELOPMENT\", True)\n#ALLOWED_HOSTS = [ getenv(\"APP_HOST\")]\n#ALLOWED_HOSTS = ['127.0.0.1', 'localhost']",
         "detail": "blogapp.settings",
         "documentation": {}
     },
@@ -912,7 +919,7 @@
         "kind": 5,
         "importPath": "blogapp.settings",
         "description": "blogapp.settings",
-        "peekOfCode": "#SECRET_KEY = getenv(\"SECRET_KEY\")\n#SECRET_KEY = getenv(\"SECRET_KEY\", 'django-insecure-default') \n#SECRET_KEY = os.getenv(\"SECRET_KEY\", \"default-value-if-missing\")\nSECRET_KEY = getenv(\"SECRET_KEY\", \"default-fallback-key\")\n# SECURITY WARNING: don't run with debug turned on in production!\n#DEBUG = True\n#DEBUG = getenv(\"IS_DEVELOPMENT\", True)\n#ALLOWED_HOSTS = [ getenv(\"APP_HOST\")]\n#ALLOWED_HOSTS = ['127.0.0.1', 'localhost']\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com', 'localhost', '127.0.0.1']",
+        "peekOfCode": "#SECRET_KEY = getenv(\"SECRET_KEY\")\n#SECRET_KEY = getenv(\"SECRET_KEY\", 'django-insecure-default') \n#SECRET_KEY = os.getenv(\"SECRET_KEY\", \"default-value-if-missing\")\nSECRET_KEY = getenv(\"SECRET_KEY\", \"default-fallback-key\")\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\n#DEBUG = getenv(\"IS_DEVELOPMENT\", True)\n#ALLOWED_HOSTS = [ getenv(\"APP_HOST\")]\n#ALLOWED_HOSTS = ['127.0.0.1', 'localhost']\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com', 'localhost', '127.0.0.1']",
         "detail": "blogapp.settings",
         "documentation": {}
     },
@@ -921,7 +928,7 @@
         "kind": 5,
         "importPath": "blogapp.settings",
         "description": "blogapp.settings",
-        "peekOfCode": "#SECRET_KEY = getenv(\"SECRET_KEY\", 'django-insecure-default') \n#SECRET_KEY = os.getenv(\"SECRET_KEY\", \"default-value-if-missing\")\nSECRET_KEY = getenv(\"SECRET_KEY\", \"default-fallback-key\")\n# SECURITY WARNING: don't run with debug turned on in production!\n#DEBUG = True\n#DEBUG = getenv(\"IS_DEVELOPMENT\", True)\n#ALLOWED_HOSTS = [ getenv(\"APP_HOST\")]\n#ALLOWED_HOSTS = ['127.0.0.1', 'localhost']\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com', 'localhost', '127.0.0.1']\nDEBUG = os.getenv(\"DEBUG\", \"False\") == \"True\"",
+        "peekOfCode": "#SECRET_KEY = getenv(\"SECRET_KEY\", 'django-insecure-default') \n#SECRET_KEY = os.getenv(\"SECRET_KEY\", \"default-value-if-missing\")\nSECRET_KEY = getenv(\"SECRET_KEY\", \"default-fallback-key\")\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\n#DEBUG = getenv(\"IS_DEVELOPMENT\", True)\n#ALLOWED_HOSTS = [ getenv(\"APP_HOST\")]\n#ALLOWED_HOSTS = ['127.0.0.1', 'localhost']\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com', 'localhost', '127.0.0.1']\nDEBUG = os.getenv(\"DEBUG\", \"False\") == \"True\"",
         "detail": "blogapp.settings",
         "documentation": {}
     },
@@ -930,7 +937,7 @@
         "kind": 5,
         "importPath": "blogapp.settings",
         "description": "blogapp.settings",
-        "peekOfCode": "#SECRET_KEY = os.getenv(\"SECRET_KEY\", \"default-value-if-missing\")\nSECRET_KEY = getenv(\"SECRET_KEY\", \"default-fallback-key\")\n# SECURITY WARNING: don't run with debug turned on in production!\n#DEBUG = True\n#DEBUG = getenv(\"IS_DEVELOPMENT\", True)\n#ALLOWED_HOSTS = [ getenv(\"APP_HOST\")]\n#ALLOWED_HOSTS = ['127.0.0.1', 'localhost']\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com', 'localhost', '127.0.0.1']\nDEBUG = os.getenv(\"DEBUG\", \"False\") == \"True\"\n#ALLOWED_HOSTS = os.getenv(\"ALLOWED_HOSTS\", \".elasticbeanstalk.com\").split(\",\")",
+        "peekOfCode": "#SECRET_KEY = os.getenv(\"SECRET_KEY\", \"default-value-if-missing\")\nSECRET_KEY = getenv(\"SECRET_KEY\", \"default-fallback-key\")\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\n#DEBUG = getenv(\"IS_DEVELOPMENT\", True)\n#ALLOWED_HOSTS = [ getenv(\"APP_HOST\")]\n#ALLOWED_HOSTS = ['127.0.0.1', 'localhost']\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com', 'localhost', '127.0.0.1']\nDEBUG = os.getenv(\"DEBUG\", \"False\") == \"True\"\n#ALLOWED_HOSTS = os.getenv(\"ALLOWED_HOSTS\", \".elasticbeanstalk.com\").split(\",\")",
         "detail": "blogapp.settings",
         "documentation": {}
     },
@@ -939,16 +946,16 @@
         "kind": 5,
         "importPath": "blogapp.settings",
         "description": "blogapp.settings",
-        "peekOfCode": "SECRET_KEY = getenv(\"SECRET_KEY\", \"default-fallback-key\")\n# SECURITY WARNING: don't run with debug turned on in production!\n#DEBUG = True\n#DEBUG = getenv(\"IS_DEVELOPMENT\", True)\n#ALLOWED_HOSTS = [ getenv(\"APP_HOST\")]\n#ALLOWED_HOSTS = ['127.0.0.1', 'localhost']\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com', 'localhost', '127.0.0.1']\nDEBUG = os.getenv(\"DEBUG\", \"False\") == \"True\"\n#ALLOWED_HOSTS = os.getenv(\"ALLOWED_HOSTS\", \".elasticbeanstalk.com\").split(\",\")\nALLOWED_HOSTS = ['.onrender.com', 'localhost', '127.0.0.1']",
+        "peekOfCode": "SECRET_KEY = getenv(\"SECRET_KEY\", \"default-fallback-key\")\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\n#DEBUG = getenv(\"IS_DEVELOPMENT\", True)\n#ALLOWED_HOSTS = [ getenv(\"APP_HOST\")]\n#ALLOWED_HOSTS = ['127.0.0.1', 'localhost']\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com', 'localhost', '127.0.0.1']\nDEBUG = os.getenv(\"DEBUG\", \"False\") == \"True\"\n#ALLOWED_HOSTS = os.getenv(\"ALLOWED_HOSTS\", \".elasticbeanstalk.com\").split(\",\")\nALLOWED_HOSTS = ['.onrender.com', 'localhost', '127.0.0.1']",
         "detail": "blogapp.settings",
         "documentation": {}
     },
     {
-        "label": "#DEBUG",
+        "label": "DEBUG",
         "kind": 5,
         "importPath": "blogapp.settings",
         "description": "blogapp.settings",
-        "peekOfCode": "#DEBUG = True\n#DEBUG = getenv(\"IS_DEVELOPMENT\", True)\n#ALLOWED_HOSTS = [ getenv(\"APP_HOST\")]\n#ALLOWED_HOSTS = ['127.0.0.1', 'localhost']\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com', 'localhost', '127.0.0.1']\nDEBUG = os.getenv(\"DEBUG\", \"False\") == \"True\"\n#ALLOWED_HOSTS = os.getenv(\"ALLOWED_HOSTS\", \".elasticbeanstalk.com\").split(\",\")\nALLOWED_HOSTS = ['.onrender.com', 'localhost', '127.0.0.1']\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com']\n# Application definition",
+        "peekOfCode": "DEBUG = True\n#DEBUG = getenv(\"IS_DEVELOPMENT\", True)\n#ALLOWED_HOSTS = [ getenv(\"APP_HOST\")]\n#ALLOWED_HOSTS = ['127.0.0.1', 'localhost']\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com', 'localhost', '127.0.0.1']\nDEBUG = os.getenv(\"DEBUG\", \"False\") == \"True\"\n#ALLOWED_HOSTS = os.getenv(\"ALLOWED_HOSTS\", \".elasticbeanstalk.com\").split(\",\")\nALLOWED_HOSTS = ['.onrender.com', 'localhost', '127.0.0.1']\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com']\n# Application definition",
         "detail": "blogapp.settings",
         "documentation": {}
     },
@@ -1092,7 +1099,7 @@
         "kind": 5,
         "importPath": "blogapp.settings",
         "description": "blogapp.settings",
-        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [\n    BASE_DIR / \"static\"\n]",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nimport os\nSTATIC_URL = '/static/'\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nMEDIA_URL = '/media/'",
         "detail": "blogapp.settings",
         "documentation": {}
     },
@@ -1101,7 +1108,7 @@
         "kind": 5,
         "importPath": "blogapp.settings",
         "description": "blogapp.settings",
-        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [\n    BASE_DIR / \"static\"\n]\nSTATIC_ROOT = BASE_DIR / \"staticfiles\"",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nimport os\nSTATIC_URL = '/static/'\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')",
         "detail": "blogapp.settings",
         "documentation": {}
     },
@@ -1110,7 +1117,7 @@
         "kind": 5,
         "importPath": "blogapp.settings",
         "description": "blogapp.settings",
-        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [\n    BASE_DIR / \"static\"\n]\nSTATIC_ROOT = BASE_DIR / \"staticfiles\"\nMEDIA_ROOT = BASE_DIR / \"uploads\"",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nimport os\nSTATIC_URL = '/static/'\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\n# Deployment için",
         "detail": "blogapp.settings",
         "documentation": {}
     },
@@ -1119,7 +1126,7 @@
         "kind": 5,
         "importPath": "blogapp.settings",
         "description": "blogapp.settings",
-        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = [\n    BASE_DIR / \"static\"\n]\nSTATIC_ROOT = BASE_DIR / \"staticfiles\"\nMEDIA_ROOT = BASE_DIR / \"uploads\"\nMEDIA_URL = \"/images/\"",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nimport os\nSTATIC_URL = '/static/'\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\n# Deployment için\nif not DEBUG:",
         "detail": "blogapp.settings",
         "documentation": {}
     },
@@ -1128,16 +1135,7 @@
         "kind": 5,
         "importPath": "blogapp.settings",
         "description": "blogapp.settings",
-        "peekOfCode": "STATIC_URL = '/static/'\nSTATICFILES_DIRS = [\n    BASE_DIR / \"static\"\n]\nSTATIC_ROOT = BASE_DIR / \"staticfiles\"\nMEDIA_ROOT = BASE_DIR / \"uploads\"\nMEDIA_URL = \"/images/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
-        "detail": "blogapp.settings",
-        "documentation": {}
-    },
-    {
-        "label": "STATICFILES_DIRS",
-        "kind": 5,
-        "importPath": "blogapp.settings",
-        "description": "blogapp.settings",
-        "peekOfCode": "STATICFILES_DIRS = [\n    BASE_DIR / \"static\"\n]\nSTATIC_ROOT = BASE_DIR / \"staticfiles\"\nMEDIA_ROOT = BASE_DIR / \"uploads\"\nMEDIA_URL = \"/images/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nLOGIN_URL = '/account/login/'",
+        "peekOfCode": "STATIC_URL = '/static/'\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\n# Deployment için\nif not DEBUG:\n    STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
         "detail": "blogapp.settings",
         "documentation": {}
     },
@@ -1146,16 +1144,7 @@
         "kind": 5,
         "importPath": "blogapp.settings",
         "description": "blogapp.settings",
-        "peekOfCode": "STATIC_ROOT = BASE_DIR / \"staticfiles\"\nMEDIA_ROOT = BASE_DIR / \"uploads\"\nMEDIA_URL = \"/images/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nLOGIN_URL = '/account/login/'\nLOGIN_REDIRECT_URL = '/homework/list/'\nLOGOUT_REDIRECT_URL = '/'",
-        "detail": "blogapp.settings",
-        "documentation": {}
-    },
-    {
-        "label": "MEDIA_ROOT",
-        "kind": 5,
-        "importPath": "blogapp.settings",
-        "description": "blogapp.settings",
-        "peekOfCode": "MEDIA_ROOT = BASE_DIR / \"uploads\"\nMEDIA_URL = \"/images/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nLOGIN_URL = '/account/login/'\nLOGIN_REDIRECT_URL = '/homework/list/'\nLOGOUT_REDIRECT_URL = '/'",
+        "peekOfCode": "STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\n# Deployment için\nif not DEBUG:\n    STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nLOGIN_URL = '/account/login/'",
         "detail": "blogapp.settings",
         "documentation": {}
     },
@@ -1164,7 +1153,16 @@
         "kind": 5,
         "importPath": "blogapp.settings",
         "description": "blogapp.settings",
-        "peekOfCode": "MEDIA_URL = \"/images/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nLOGIN_URL = '/account/login/'\nLOGIN_REDIRECT_URL = '/homework/list/'\nLOGOUT_REDIRECT_URL = '/'",
+        "peekOfCode": "MEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\n# Deployment için\nif not DEBUG:\n    STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nLOGIN_URL = '/account/login/'\nLOGIN_REDIRECT_URL = '/homework/list/'",
+        "detail": "blogapp.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_ROOT",
+        "kind": 5,
+        "importPath": "blogapp.settings",
+        "description": "blogapp.settings",
+        "peekOfCode": "MEDIA_ROOT = os.path.join(BASE_DIR, 'media')\n# Deployment için\nif not DEBUG:\n    STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nLOGIN_URL = '/account/login/'\nLOGIN_REDIRECT_URL = '/homework/list/'\nLOGOUT_REDIRECT_URL = '/'",
         "detail": "blogapp.settings",
         "documentation": {}
     },
@@ -1202,6 +1200,15 @@
         "description": "blogapp.settings",
         "peekOfCode": "LOGOUT_REDIRECT_URL = '/'",
         "detail": "blogapp.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "blogapp.urls",
+        "description": "blogapp.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('', include('blogapp.blog.urls')),  # Blog app'in URL'lerini dahil et\n    path('account/', include('blogapp.account.urls')),  # Eğer başka bir app varsa onu da ekleyebilirsin\n]",
+        "detail": "blogapp.urls",
         "documentation": {}
     },
     {
