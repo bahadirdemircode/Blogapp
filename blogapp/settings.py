@@ -44,7 +44,9 @@ DEBUG = True
 DEBUG = os.getenv("DEBUG", "False") == "True"
 #ALLOWED_HOSTS = os.getenv("ALLOWED_HOSTS", ".elasticbeanstalk.com").split(",")
 #ALLOWED_HOSTS = ['.onrender.com', 'localhost', '127.0.0.1']
-ALLOWED_HOSTS = ["django-blogapp-yedek.onrender.com", "127.0.0.1"]
+#Sonki
+#ALLOWED_HOSTS = ["django-blogapp-yedek.onrender.com", "127.0.0.1"]
+ALLOWED_HOSTS = ["*"]
 
 #ALLOWED_HOSTS = ['.elasticbeanstalk.com']
 
