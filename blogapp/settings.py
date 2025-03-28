@@ -36,14 +36,15 @@ SECRET_KEY = getenv("SECRET_KEY", "default-fallback-key")
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-ALLOWED_HOSTS = ["*"]
+
 #DEBUG = getenv("IS_DEVELOPMENT", True)
 
 #ALLOWED_HOSTS = [ getenv("APP_HOST")]
 
 #ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
 #ALLOWED_HOSTS = ['.elasticbeanstalk.com', 'localhost', '127.0.0.1']
-DEBUG = os.getenv("DEBUG", "False") == "True"
+DEBUG = os.getenv("DEBUG", "True").lower() in ["true", "1"]
+ALLOWED_HOSTS = os.getenv("ALLOWED_HOSTS", "127.0.0.1,localhost").split(",")
 #ALLOWED_HOSTS = os.getenv("ALLOWED_HOSTS", ".elasticbeanstalk.com").split(",")
 #ALLOWED_HOSTS = ['.onrender.com', 'localhost', '127.0.0.1']
 #Sonki
