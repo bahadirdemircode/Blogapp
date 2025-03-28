@@ -679,6 +679,14 @@
         "documentation": {}
     },
     {
+        "label": "setup",
+        "importPath": "setuptools",
+        "description": "setuptools",
+        "isExtraImport": true,
+        "detail": "setuptools",
+        "documentation": {}
+    },
+    {
         "label": "AccountConfig",
         "kind": 6,
         "importPath": "blogapp.account.apps",
@@ -1205,7 +1213,7 @@
         "kind": 5,
         "importPath": "blogapp.settings",
         "description": "blogapp.settings",
-        "peekOfCode": "WSGI_APPLICATION = 'blogapp.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/5.1/ref/settings/#databases\nDATABASES = {\n    'default': dj_database_url.config(default=f'sqlite:///{BASE_DIR}/db.sqlite3')\n}\n# Password validation\n# https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "peekOfCode": "WSGI_APPLICATION = 'blogapp.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/5.1/ref/settings/#databases\nDATABASES = {\n    #'default': dj_database_url.config(default=f'sqlite:///{BASE_DIR}/db.sqlite3')\n     'default': dj_database_url.config(default=os.getenv(\"DATABASE_URL\"))\n}\n# Password validation\n# https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [",
         "detail": "blogapp.settings",
         "documentation": {}
     },
@@ -1214,7 +1222,7 @@
         "kind": 5,
         "importPath": "blogapp.settings",
         "description": "blogapp.settings",
-        "peekOfCode": "DATABASES = {\n    'default': dj_database_url.config(default=f'sqlite:///{BASE_DIR}/db.sqlite3')\n}\n# Password validation\n# https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {",
+        "peekOfCode": "DATABASES = {\n    #'default': dj_database_url.config(default=f'sqlite:///{BASE_DIR}/db.sqlite3')\n     'default': dj_database_url.config(default=os.getenv(\"DATABASE_URL\"))\n}\n# Password validation\n# https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },",
         "detail": "blogapp.settings",
         "documentation": {}
     },
@@ -1639,6 +1647,15 @@
         "description": "venv.Scripts.pywin32_testall",
         "peekOfCode": "failures = []\n# Run a test using subprocess and wait for the result.\n# If we get an returncode != 0, we know that there was an error, but we don't\n# abort immediately - we run as many tests as we can.\ndef run_test(script, cmdline_extras):\n    dirname, scriptname = os.path.split(script)\n    # some tests prefer to be run from their directory.\n    cmd = [sys.executable, \"-u\", scriptname] + cmdline_extras\n    print(\"--- Running '%s' ---\" % script)\n    sys.stdout.flush()",
         "detail": "venv.Scripts.pywin32_testall",
+        "documentation": {}
+    },
+    {
+        "label": "requirements",
+        "kind": 5,
+        "importPath": "setup",
+        "description": "setup",
+        "peekOfCode": "requirements = [\n    \"django\",\n    \"gunicorn\",\n    \"asgiref\",\n    \"dj-database-url\",\n    \"django-ckeditor\",\n    \"django-js-asset\",\n    \"pillow\",\n    \"python-dateutil\",\n    \"pytz\",",
+        "detail": "setup",
         "documentation": {}
     }
 ]

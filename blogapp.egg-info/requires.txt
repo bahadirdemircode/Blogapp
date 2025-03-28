@@ -1,0 +1,17 @@
+django
+gunicorn
+asgiref
+dj-database-url
+django-ckeditor
+django-js-asset
+pillow
+python-dateutil
+pytz
+sqlparse
+termcolor
+typing_extensions
+tzdata
+urllib3
+waitress
+pywin32
+pypiwin32
