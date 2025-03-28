@@ -35,6 +35,7 @@ SECRET_KEY = getenv("SECRET_KEY", "default-fallback-key")
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
+ALLOWED_HOSTS = ["*"]
 #DEBUG = getenv("IS_DEVELOPMENT", True)
 
 #ALLOWED_HOSTS = [ getenv("APP_HOST")]
@@ -46,7 +47,7 @@ DEBUG = os.getenv("DEBUG", "False") == "True"
 #ALLOWED_HOSTS = ['.onrender.com', 'localhost', '127.0.0.1']
 #Sonki
 #ALLOWED_HOSTS = ["django-blogapp-yedek.onrender.com", "127.0.0.1"]
-ALLOWED_HOSTS = ["*"]
+
 
 #ALLOWED_HOSTS = ['.elasticbeanstalk.com']
 

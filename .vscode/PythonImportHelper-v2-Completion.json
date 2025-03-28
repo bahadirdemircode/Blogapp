@@ -892,7 +892,7 @@
         "kind": 5,
         "importPath": "blogapp.settings",
         "description": "blogapp.settings",
-        "peekOfCode": "#SECRET_KEY = 'django-insecure-6d1_z9236#webyq^rhug!v0w^6%2cup&jxsq&ir!p$e!hczog'\n#SECRET_KEY = 'django-insecure-_z1mh$duegv8sq#n9metrwk=b=85s0#%1@^g)n&9j=13houq7='\nSECRET_KEY = 'niqqf=ju_3a0iv4z(u3vhk=6zt*y_g#2ax*)%-yqe2oi)5ze^6'\n#SECRET_KEY = getenv(\"SECRET_KEY\")\n#SECRET_KEY = getenv(\"SECRET_KEY\", 'django-insecure-default') \n#SECRET_KEY = os.getenv(\"SECRET_KEY\", \"default-value-if-missing\")\nSECRET_KEY = getenv(\"SECRET_KEY\", \"default-fallback-key\")\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\n#DEBUG = getenv(\"IS_DEVELOPMENT\", True)",
+        "peekOfCode": "#SECRET_KEY = 'django-insecure-6d1_z9236#webyq^rhug!v0w^6%2cup&jxsq&ir!p$e!hczog'\n#SECRET_KEY = 'django-insecure-_z1mh$duegv8sq#n9metrwk=b=85s0#%1@^g)n&9j=13houq7='\nSECRET_KEY = 'niqqf=ju_3a0iv4z(u3vhk=6zt*y_g#2ax*)%-yqe2oi)5ze^6'\n#SECRET_KEY = getenv(\"SECRET_KEY\")\n#SECRET_KEY = getenv(\"SECRET_KEY\", 'django-insecure-default') \n#SECRET_KEY = os.getenv(\"SECRET_KEY\", \"default-value-if-missing\")\nSECRET_KEY = getenv(\"SECRET_KEY\", \"default-fallback-key\")\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = [\"*\"]",
         "detail": "blogapp.settings",
         "documentation": {}
     },
@@ -901,7 +901,7 @@
         "kind": 5,
         "importPath": "blogapp.settings",
         "description": "blogapp.settings",
-        "peekOfCode": "#SECRET_KEY = 'django-insecure-_z1mh$duegv8sq#n9metrwk=b=85s0#%1@^g)n&9j=13houq7='\nSECRET_KEY = 'niqqf=ju_3a0iv4z(u3vhk=6zt*y_g#2ax*)%-yqe2oi)5ze^6'\n#SECRET_KEY = getenv(\"SECRET_KEY\")\n#SECRET_KEY = getenv(\"SECRET_KEY\", 'django-insecure-default') \n#SECRET_KEY = os.getenv(\"SECRET_KEY\", \"default-value-if-missing\")\nSECRET_KEY = getenv(\"SECRET_KEY\", \"default-fallback-key\")\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\n#DEBUG = getenv(\"IS_DEVELOPMENT\", True)\n#ALLOWED_HOSTS = [ getenv(\"APP_HOST\")]",
+        "peekOfCode": "#SECRET_KEY = 'django-insecure-_z1mh$duegv8sq#n9metrwk=b=85s0#%1@^g)n&9j=13houq7='\nSECRET_KEY = 'niqqf=ju_3a0iv4z(u3vhk=6zt*y_g#2ax*)%-yqe2oi)5ze^6'\n#SECRET_KEY = getenv(\"SECRET_KEY\")\n#SECRET_KEY = getenv(\"SECRET_KEY\", 'django-insecure-default') \n#SECRET_KEY = os.getenv(\"SECRET_KEY\", \"default-value-if-missing\")\nSECRET_KEY = getenv(\"SECRET_KEY\", \"default-fallback-key\")\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = [\"*\"]\n#DEBUG = getenv(\"IS_DEVELOPMENT\", True)",
         "detail": "blogapp.settings",
         "documentation": {}
     },
@@ -910,7 +910,7 @@
         "kind": 5,
         "importPath": "blogapp.settings",
         "description": "blogapp.settings",
-        "peekOfCode": "SECRET_KEY = 'niqqf=ju_3a0iv4z(u3vhk=6zt*y_g#2ax*)%-yqe2oi)5ze^6'\n#SECRET_KEY = getenv(\"SECRET_KEY\")\n#SECRET_KEY = getenv(\"SECRET_KEY\", 'django-insecure-default') \n#SECRET_KEY = os.getenv(\"SECRET_KEY\", \"default-value-if-missing\")\nSECRET_KEY = getenv(\"SECRET_KEY\", \"default-fallback-key\")\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\n#DEBUG = getenv(\"IS_DEVELOPMENT\", True)\n#ALLOWED_HOSTS = [ getenv(\"APP_HOST\")]\n#ALLOWED_HOSTS = ['127.0.0.1', 'localhost']",
+        "peekOfCode": "SECRET_KEY = 'niqqf=ju_3a0iv4z(u3vhk=6zt*y_g#2ax*)%-yqe2oi)5ze^6'\n#SECRET_KEY = getenv(\"SECRET_KEY\")\n#SECRET_KEY = getenv(\"SECRET_KEY\", 'django-insecure-default') \n#SECRET_KEY = os.getenv(\"SECRET_KEY\", \"default-value-if-missing\")\nSECRET_KEY = getenv(\"SECRET_KEY\", \"default-fallback-key\")\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = [\"*\"]\n#DEBUG = getenv(\"IS_DEVELOPMENT\", True)\n#ALLOWED_HOSTS = [ getenv(\"APP_HOST\")]",
         "detail": "blogapp.settings",
         "documentation": {}
     },
@@ -919,7 +919,7 @@
         "kind": 5,
         "importPath": "blogapp.settings",
         "description": "blogapp.settings",
-        "peekOfCode": "#SECRET_KEY = getenv(\"SECRET_KEY\")\n#SECRET_KEY = getenv(\"SECRET_KEY\", 'django-insecure-default') \n#SECRET_KEY = os.getenv(\"SECRET_KEY\", \"default-value-if-missing\")\nSECRET_KEY = getenv(\"SECRET_KEY\", \"default-fallback-key\")\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\n#DEBUG = getenv(\"IS_DEVELOPMENT\", True)\n#ALLOWED_HOSTS = [ getenv(\"APP_HOST\")]\n#ALLOWED_HOSTS = ['127.0.0.1', 'localhost']\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com', 'localhost', '127.0.0.1']",
+        "peekOfCode": "#SECRET_KEY = getenv(\"SECRET_KEY\")\n#SECRET_KEY = getenv(\"SECRET_KEY\", 'django-insecure-default') \n#SECRET_KEY = os.getenv(\"SECRET_KEY\", \"default-value-if-missing\")\nSECRET_KEY = getenv(\"SECRET_KEY\", \"default-fallback-key\")\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = [\"*\"]\n#DEBUG = getenv(\"IS_DEVELOPMENT\", True)\n#ALLOWED_HOSTS = [ getenv(\"APP_HOST\")]\n#ALLOWED_HOSTS = ['127.0.0.1', 'localhost']",
         "detail": "blogapp.settings",
         "documentation": {}
     },
@@ -928,7 +928,7 @@
         "kind": 5,
         "importPath": "blogapp.settings",
         "description": "blogapp.settings",
-        "peekOfCode": "#SECRET_KEY = getenv(\"SECRET_KEY\", 'django-insecure-default') \n#SECRET_KEY = os.getenv(\"SECRET_KEY\", \"default-value-if-missing\")\nSECRET_KEY = getenv(\"SECRET_KEY\", \"default-fallback-key\")\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\n#DEBUG = getenv(\"IS_DEVELOPMENT\", True)\n#ALLOWED_HOSTS = [ getenv(\"APP_HOST\")]\n#ALLOWED_HOSTS = ['127.0.0.1', 'localhost']\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com', 'localhost', '127.0.0.1']\nDEBUG = os.getenv(\"DEBUG\", \"False\") == \"True\"",
+        "peekOfCode": "#SECRET_KEY = getenv(\"SECRET_KEY\", 'django-insecure-default') \n#SECRET_KEY = os.getenv(\"SECRET_KEY\", \"default-value-if-missing\")\nSECRET_KEY = getenv(\"SECRET_KEY\", \"default-fallback-key\")\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = [\"*\"]\n#DEBUG = getenv(\"IS_DEVELOPMENT\", True)\n#ALLOWED_HOSTS = [ getenv(\"APP_HOST\")]\n#ALLOWED_HOSTS = ['127.0.0.1', 'localhost']\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com', 'localhost', '127.0.0.1']",
         "detail": "blogapp.settings",
         "documentation": {}
     },
@@ -937,7 +937,7 @@
         "kind": 5,
         "importPath": "blogapp.settings",
         "description": "blogapp.settings",
-        "peekOfCode": "#SECRET_KEY = os.getenv(\"SECRET_KEY\", \"default-value-if-missing\")\nSECRET_KEY = getenv(\"SECRET_KEY\", \"default-fallback-key\")\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\n#DEBUG = getenv(\"IS_DEVELOPMENT\", True)\n#ALLOWED_HOSTS = [ getenv(\"APP_HOST\")]\n#ALLOWED_HOSTS = ['127.0.0.1', 'localhost']\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com', 'localhost', '127.0.0.1']\nDEBUG = os.getenv(\"DEBUG\", \"False\") == \"True\"\n#ALLOWED_HOSTS = os.getenv(\"ALLOWED_HOSTS\", \".elasticbeanstalk.com\").split(\",\")",
+        "peekOfCode": "#SECRET_KEY = os.getenv(\"SECRET_KEY\", \"default-value-if-missing\")\nSECRET_KEY = getenv(\"SECRET_KEY\", \"default-fallback-key\")\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = [\"*\"]\n#DEBUG = getenv(\"IS_DEVELOPMENT\", True)\n#ALLOWED_HOSTS = [ getenv(\"APP_HOST\")]\n#ALLOWED_HOSTS = ['127.0.0.1', 'localhost']\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com', 'localhost', '127.0.0.1']\nDEBUG = os.getenv(\"DEBUG\", \"False\") == \"True\"",
         "detail": "blogapp.settings",
         "documentation": {}
     },
@@ -946,7 +946,7 @@
         "kind": 5,
         "importPath": "blogapp.settings",
         "description": "blogapp.settings",
-        "peekOfCode": "SECRET_KEY = getenv(\"SECRET_KEY\", \"default-fallback-key\")\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\n#DEBUG = getenv(\"IS_DEVELOPMENT\", True)\n#ALLOWED_HOSTS = [ getenv(\"APP_HOST\")]\n#ALLOWED_HOSTS = ['127.0.0.1', 'localhost']\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com', 'localhost', '127.0.0.1']\nDEBUG = os.getenv(\"DEBUG\", \"False\") == \"True\"\n#ALLOWED_HOSTS = os.getenv(\"ALLOWED_HOSTS\", \".elasticbeanstalk.com\").split(\",\")\n#ALLOWED_HOSTS = ['.onrender.com', 'localhost', '127.0.0.1']",
+        "peekOfCode": "SECRET_KEY = getenv(\"SECRET_KEY\", \"default-fallback-key\")\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = [\"*\"]\n#DEBUG = getenv(\"IS_DEVELOPMENT\", True)\n#ALLOWED_HOSTS = [ getenv(\"APP_HOST\")]\n#ALLOWED_HOSTS = ['127.0.0.1', 'localhost']\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com', 'localhost', '127.0.0.1']\nDEBUG = os.getenv(\"DEBUG\", \"False\") == \"True\"\n#ALLOWED_HOSTS = os.getenv(\"ALLOWED_HOSTS\", \".elasticbeanstalk.com\").split(\",\")",
         "detail": "blogapp.settings",
         "documentation": {}
     },
@@ -955,79 +955,7 @@
         "kind": 5,
         "importPath": "blogapp.settings",
         "description": "blogapp.settings",
-        "peekOfCode": "DEBUG = True\n#DEBUG = getenv(\"IS_DEVELOPMENT\", True)\n#ALLOWED_HOSTS = [ getenv(\"APP_HOST\")]\n#ALLOWED_HOSTS = ['127.0.0.1', 'localhost']\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com', 'localhost', '127.0.0.1']\nDEBUG = os.getenv(\"DEBUG\", \"False\") == \"True\"\n#ALLOWED_HOSTS = os.getenv(\"ALLOWED_HOSTS\", \".elasticbeanstalk.com\").split(\",\")\n#ALLOWED_HOSTS = ['.onrender.com', 'localhost', '127.0.0.1']\n#Sonki\n#ALLOWED_HOSTS = [\"django-blogapp-yedek.onrender.com\", \"127.0.0.1\"]",
-        "detail": "blogapp.settings",
-        "documentation": {}
-    },
-    {
-        "label": "#DEBUG",
-        "kind": 5,
-        "importPath": "blogapp.settings",
-        "description": "blogapp.settings",
-        "peekOfCode": "#DEBUG = getenv(\"IS_DEVELOPMENT\", True)\n#ALLOWED_HOSTS = [ getenv(\"APP_HOST\")]\n#ALLOWED_HOSTS = ['127.0.0.1', 'localhost']\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com', 'localhost', '127.0.0.1']\nDEBUG = os.getenv(\"DEBUG\", \"False\") == \"True\"\n#ALLOWED_HOSTS = os.getenv(\"ALLOWED_HOSTS\", \".elasticbeanstalk.com\").split(\",\")\n#ALLOWED_HOSTS = ['.onrender.com', 'localhost', '127.0.0.1']\n#Sonki\n#ALLOWED_HOSTS = [\"django-blogapp-yedek.onrender.com\", \"127.0.0.1\"]\nALLOWED_HOSTS = [\"*\"]",
-        "detail": "blogapp.settings",
-        "documentation": {}
-    },
-    {
-        "label": "#ALLOWED_HOSTS",
-        "kind": 5,
-        "importPath": "blogapp.settings",
-        "description": "blogapp.settings",
-        "peekOfCode": "#ALLOWED_HOSTS = [ getenv(\"APP_HOST\")]\n#ALLOWED_HOSTS = ['127.0.0.1', 'localhost']\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com', 'localhost', '127.0.0.1']\nDEBUG = os.getenv(\"DEBUG\", \"False\") == \"True\"\n#ALLOWED_HOSTS = os.getenv(\"ALLOWED_HOSTS\", \".elasticbeanstalk.com\").split(\",\")\n#ALLOWED_HOSTS = ['.onrender.com', 'localhost', '127.0.0.1']\n#Sonki\n#ALLOWED_HOSTS = [\"django-blogapp-yedek.onrender.com\", \"127.0.0.1\"]\nALLOWED_HOSTS = [\"*\"]\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com']",
-        "detail": "blogapp.settings",
-        "documentation": {}
-    },
-    {
-        "label": "#ALLOWED_HOSTS",
-        "kind": 5,
-        "importPath": "blogapp.settings",
-        "description": "blogapp.settings",
-        "peekOfCode": "#ALLOWED_HOSTS = ['127.0.0.1', 'localhost']\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com', 'localhost', '127.0.0.1']\nDEBUG = os.getenv(\"DEBUG\", \"False\") == \"True\"\n#ALLOWED_HOSTS = os.getenv(\"ALLOWED_HOSTS\", \".elasticbeanstalk.com\").split(\",\")\n#ALLOWED_HOSTS = ['.onrender.com', 'localhost', '127.0.0.1']\n#Sonki\n#ALLOWED_HOSTS = [\"django-blogapp-yedek.onrender.com\", \"127.0.0.1\"]\nALLOWED_HOSTS = [\"*\"]\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com']\n# Application definition",
-        "detail": "blogapp.settings",
-        "documentation": {}
-    },
-    {
-        "label": "#ALLOWED_HOSTS",
-        "kind": 5,
-        "importPath": "blogapp.settings",
-        "description": "blogapp.settings",
-        "peekOfCode": "#ALLOWED_HOSTS = ['.elasticbeanstalk.com', 'localhost', '127.0.0.1']\nDEBUG = os.getenv(\"DEBUG\", \"False\") == \"True\"\n#ALLOWED_HOSTS = os.getenv(\"ALLOWED_HOSTS\", \".elasticbeanstalk.com\").split(\",\")\n#ALLOWED_HOSTS = ['.onrender.com', 'localhost', '127.0.0.1']\n#Sonki\n#ALLOWED_HOSTS = [\"django-blogapp-yedek.onrender.com\", \"127.0.0.1\"]\nALLOWED_HOSTS = [\"*\"]\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com']\n# Application definition\nINSTALLED_APPS = [",
-        "detail": "blogapp.settings",
-        "documentation": {}
-    },
-    {
-        "label": "DEBUG",
-        "kind": 5,
-        "importPath": "blogapp.settings",
-        "description": "blogapp.settings",
-        "peekOfCode": "DEBUG = os.getenv(\"DEBUG\", \"False\") == \"True\"\n#ALLOWED_HOSTS = os.getenv(\"ALLOWED_HOSTS\", \".elasticbeanstalk.com\").split(\",\")\n#ALLOWED_HOSTS = ['.onrender.com', 'localhost', '127.0.0.1']\n#Sonki\n#ALLOWED_HOSTS = [\"django-blogapp-yedek.onrender.com\", \"127.0.0.1\"]\nALLOWED_HOSTS = [\"*\"]\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com']\n# Application definition\nINSTALLED_APPS = [\n    'blogapp',  ",
-        "detail": "blogapp.settings",
-        "documentation": {}
-    },
-    {
-        "label": "#ALLOWED_HOSTS",
-        "kind": 5,
-        "importPath": "blogapp.settings",
-        "description": "blogapp.settings",
-        "peekOfCode": "#ALLOWED_HOSTS = os.getenv(\"ALLOWED_HOSTS\", \".elasticbeanstalk.com\").split(\",\")\n#ALLOWED_HOSTS = ['.onrender.com', 'localhost', '127.0.0.1']\n#Sonki\n#ALLOWED_HOSTS = [\"django-blogapp-yedek.onrender.com\", \"127.0.0.1\"]\nALLOWED_HOSTS = [\"*\"]\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com']\n# Application definition\nINSTALLED_APPS = [\n    'blogapp',  \n    'django.contrib.admin',",
-        "detail": "blogapp.settings",
-        "documentation": {}
-    },
-    {
-        "label": "#ALLOWED_HOSTS",
-        "kind": 5,
-        "importPath": "blogapp.settings",
-        "description": "blogapp.settings",
-        "peekOfCode": "#ALLOWED_HOSTS = ['.onrender.com', 'localhost', '127.0.0.1']\n#Sonki\n#ALLOWED_HOSTS = [\"django-blogapp-yedek.onrender.com\", \"127.0.0.1\"]\nALLOWED_HOSTS = [\"*\"]\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com']\n# Application definition\nINSTALLED_APPS = [\n    'blogapp',  \n    'django.contrib.admin',\n    'django.contrib.auth',",
-        "detail": "blogapp.settings",
-        "documentation": {}
-    },
-    {
-        "label": "#ALLOWED_HOSTS",
-        "kind": 5,
-        "importPath": "blogapp.settings",
-        "description": "blogapp.settings",
-        "peekOfCode": "#ALLOWED_HOSTS = [\"django-blogapp-yedek.onrender.com\", \"127.0.0.1\"]\nALLOWED_HOSTS = [\"*\"]\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com']\n# Application definition\nINSTALLED_APPS = [\n    'blogapp',  \n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = [\"*\"]\n#DEBUG = getenv(\"IS_DEVELOPMENT\", True)\n#ALLOWED_HOSTS = [ getenv(\"APP_HOST\")]\n#ALLOWED_HOSTS = ['127.0.0.1', 'localhost']\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com', 'localhost', '127.0.0.1']\nDEBUG = os.getenv(\"DEBUG\", \"False\") == \"True\"\n#ALLOWED_HOSTS = os.getenv(\"ALLOWED_HOSTS\", \".elasticbeanstalk.com\").split(\",\")\n#ALLOWED_HOSTS = ['.onrender.com', 'localhost', '127.0.0.1']\n#Sonki",
         "detail": "blogapp.settings",
         "documentation": {}
     },
@@ -1036,7 +964,79 @@
         "kind": 5,
         "importPath": "blogapp.settings",
         "description": "blogapp.settings",
-        "peekOfCode": "ALLOWED_HOSTS = [\"*\"]\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com']\n# Application definition\nINSTALLED_APPS = [\n    'blogapp',  \n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',",
+        "peekOfCode": "ALLOWED_HOSTS = [\"*\"]\n#DEBUG = getenv(\"IS_DEVELOPMENT\", True)\n#ALLOWED_HOSTS = [ getenv(\"APP_HOST\")]\n#ALLOWED_HOSTS = ['127.0.0.1', 'localhost']\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com', 'localhost', '127.0.0.1']\nDEBUG = os.getenv(\"DEBUG\", \"False\") == \"True\"\n#ALLOWED_HOSTS = os.getenv(\"ALLOWED_HOSTS\", \".elasticbeanstalk.com\").split(\",\")\n#ALLOWED_HOSTS = ['.onrender.com', 'localhost', '127.0.0.1']\n#Sonki\n#ALLOWED_HOSTS = [\"django-blogapp-yedek.onrender.com\", \"127.0.0.1\"]",
+        "detail": "blogapp.settings",
+        "documentation": {}
+    },
+    {
+        "label": "#DEBUG",
+        "kind": 5,
+        "importPath": "blogapp.settings",
+        "description": "blogapp.settings",
+        "peekOfCode": "#DEBUG = getenv(\"IS_DEVELOPMENT\", True)\n#ALLOWED_HOSTS = [ getenv(\"APP_HOST\")]\n#ALLOWED_HOSTS = ['127.0.0.1', 'localhost']\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com', 'localhost', '127.0.0.1']\nDEBUG = os.getenv(\"DEBUG\", \"False\") == \"True\"\n#ALLOWED_HOSTS = os.getenv(\"ALLOWED_HOSTS\", \".elasticbeanstalk.com\").split(\",\")\n#ALLOWED_HOSTS = ['.onrender.com', 'localhost', '127.0.0.1']\n#Sonki\n#ALLOWED_HOSTS = [\"django-blogapp-yedek.onrender.com\", \"127.0.0.1\"]\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com']",
+        "detail": "blogapp.settings",
+        "documentation": {}
+    },
+    {
+        "label": "#ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "blogapp.settings",
+        "description": "blogapp.settings",
+        "peekOfCode": "#ALLOWED_HOSTS = [ getenv(\"APP_HOST\")]\n#ALLOWED_HOSTS = ['127.0.0.1', 'localhost']\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com', 'localhost', '127.0.0.1']\nDEBUG = os.getenv(\"DEBUG\", \"False\") == \"True\"\n#ALLOWED_HOSTS = os.getenv(\"ALLOWED_HOSTS\", \".elasticbeanstalk.com\").split(\",\")\n#ALLOWED_HOSTS = ['.onrender.com', 'localhost', '127.0.0.1']\n#Sonki\n#ALLOWED_HOSTS = [\"django-blogapp-yedek.onrender.com\", \"127.0.0.1\"]\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com']\n# Application definition",
+        "detail": "blogapp.settings",
+        "documentation": {}
+    },
+    {
+        "label": "#ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "blogapp.settings",
+        "description": "blogapp.settings",
+        "peekOfCode": "#ALLOWED_HOSTS = ['127.0.0.1', 'localhost']\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com', 'localhost', '127.0.0.1']\nDEBUG = os.getenv(\"DEBUG\", \"False\") == \"True\"\n#ALLOWED_HOSTS = os.getenv(\"ALLOWED_HOSTS\", \".elasticbeanstalk.com\").split(\",\")\n#ALLOWED_HOSTS = ['.onrender.com', 'localhost', '127.0.0.1']\n#Sonki\n#ALLOWED_HOSTS = [\"django-blogapp-yedek.onrender.com\", \"127.0.0.1\"]\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com']\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "blogapp.settings",
+        "documentation": {}
+    },
+    {
+        "label": "#ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "blogapp.settings",
+        "description": "blogapp.settings",
+        "peekOfCode": "#ALLOWED_HOSTS = ['.elasticbeanstalk.com', 'localhost', '127.0.0.1']\nDEBUG = os.getenv(\"DEBUG\", \"False\") == \"True\"\n#ALLOWED_HOSTS = os.getenv(\"ALLOWED_HOSTS\", \".elasticbeanstalk.com\").split(\",\")\n#ALLOWED_HOSTS = ['.onrender.com', 'localhost', '127.0.0.1']\n#Sonki\n#ALLOWED_HOSTS = [\"django-blogapp-yedek.onrender.com\", \"127.0.0.1\"]\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com']\n# Application definition\nINSTALLED_APPS = [\n    'blogapp',  ",
+        "detail": "blogapp.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "blogapp.settings",
+        "description": "blogapp.settings",
+        "peekOfCode": "DEBUG = os.getenv(\"DEBUG\", \"False\") == \"True\"\n#ALLOWED_HOSTS = os.getenv(\"ALLOWED_HOSTS\", \".elasticbeanstalk.com\").split(\",\")\n#ALLOWED_HOSTS = ['.onrender.com', 'localhost', '127.0.0.1']\n#Sonki\n#ALLOWED_HOSTS = [\"django-blogapp-yedek.onrender.com\", \"127.0.0.1\"]\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com']\n# Application definition\nINSTALLED_APPS = [\n    'blogapp',  \n    'django.contrib.admin',",
+        "detail": "blogapp.settings",
+        "documentation": {}
+    },
+    {
+        "label": "#ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "blogapp.settings",
+        "description": "blogapp.settings",
+        "peekOfCode": "#ALLOWED_HOSTS = os.getenv(\"ALLOWED_HOSTS\", \".elasticbeanstalk.com\").split(\",\")\n#ALLOWED_HOSTS = ['.onrender.com', 'localhost', '127.0.0.1']\n#Sonki\n#ALLOWED_HOSTS = [\"django-blogapp-yedek.onrender.com\", \"127.0.0.1\"]\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com']\n# Application definition\nINSTALLED_APPS = [\n    'blogapp',  \n    'django.contrib.admin',\n    'django.contrib.auth',",
+        "detail": "blogapp.settings",
+        "documentation": {}
+    },
+    {
+        "label": "#ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "blogapp.settings",
+        "description": "blogapp.settings",
+        "peekOfCode": "#ALLOWED_HOSTS = ['.onrender.com', 'localhost', '127.0.0.1']\n#Sonki\n#ALLOWED_HOSTS = [\"django-blogapp-yedek.onrender.com\", \"127.0.0.1\"]\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com']\n# Application definition\nINSTALLED_APPS = [\n    'blogapp',  \n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',",
+        "detail": "blogapp.settings",
+        "documentation": {}
+    },
+    {
+        "label": "#ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "blogapp.settings",
+        "description": "blogapp.settings",
+        "peekOfCode": "#ALLOWED_HOSTS = [\"django-blogapp-yedek.onrender.com\", \"127.0.0.1\"]\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com']\n# Application definition\nINSTALLED_APPS = [\n    'blogapp',  \n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',",
         "detail": "blogapp.settings",
         "documentation": {}
     },
