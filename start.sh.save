@@ -1,0 +1,5 @@
+echo '#!/bin/bash' > start.sh
+echo 'echo "Running database migrations..."' >> start.sh
+echo 'python manage.py migrate' >> start.sh
+echo 'echo "Starting Gunicorn..."' >> start.sh
+echo 'gunicorn blogapp.wsgi:application --bind 0.0.0.0:${PORT}' >> start.sh
