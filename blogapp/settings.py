@@ -55,6 +55,7 @@ ALLOWED_HOSTS = ["*"]
 
 #ALLOWED_HOSTS = ['.elasticbeanstalk.com']
 
+STATICFILES_STORAGE = "whitenoise.storage.CompressedStaticFilesStorage"
 
 
 # Application definition
