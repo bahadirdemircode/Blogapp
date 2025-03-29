@@ -1,5 +1,10 @@
 #!/bin/bash
-echo 'Running database migrations...'
+
+# Statik dosyaları topla
+python manage.py collectstatic --noinput
+
+# Veritabanı migrasyonlarını çalıştır
 python manage.py migrate
-echo 'Starting Gunicorn...'
+
+# Django projesini Gunicorn ile başlat
 gunicorn blogapp.wsgi:application --bind 0.0.0.0:8000
