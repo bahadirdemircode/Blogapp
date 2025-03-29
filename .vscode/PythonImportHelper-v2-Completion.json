@@ -48,6 +48,14 @@
         "documentation": {}
     },
     {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
         "label": "models",
         "importPath": "django.db",
         "description": "django.db",
@@ -531,6 +539,15 @@
         "documentation": {}
     },
     {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
         "label": "Path",
         "importPath": "pathlib",
         "description": "pathlib",
@@ -561,15 +578,6 @@
         "description": "waitress",
         "isExtraImport": true,
         "detail": "waitress",
-        "documentation": {}
-    },
-    {
-        "label": "sys",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "sys",
-        "description": "sys",
-        "detail": "sys",
         "documentation": {}
     },
     {
@@ -1002,6 +1010,15 @@
         "documentation": {}
     },
     {
+        "label": "BlogappConfig",
+        "kind": 6,
+        "importPath": "blogapp.apps",
+        "description": "blogapp.apps",
+        "peekOfCode": "class BlogappConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'blogapp'",
+        "detail": "blogapp.apps",
+        "documentation": {}
+    },
+    {
         "label": "BASE_DIR",
         "kind": 5,
         "importPath": "blogapp.settings",
@@ -1132,7 +1149,7 @@
         "kind": 5,
         "importPath": "blogapp.settings",
         "description": "blogapp.settings",
-        "peekOfCode": "ALLOWED_HOSTS = [\"*\"]\n#ALLOWED_HOSTS = os.getenv(\"ALLOWED_HOSTS\", \"127.0.0.1,localhost\").split(\",\")\n#ALLOWED_HOSTS = os.getenv(\"ALLOWED_HOSTS\", \".elasticbeanstalk.com\").split(\",\")\n#ALLOWED_HOSTS = ['.onrender.com', 'localhost', '127.0.0.1']\n#Sonki\n#ALLOWED_HOSTS = [\"django-blogapp-yedek.onrender.com\", \"127.0.0.1\"]\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com']\n# Application definition\nINSTALLED_APPS = [\n    'blogapp',  ",
+        "peekOfCode": "ALLOWED_HOSTS = [\"*\"]\n#ALLOWED_HOSTS = os.getenv(\"ALLOWED_HOSTS\", \"127.0.0.1,localhost\").split(\",\")\n#ALLOWED_HOSTS = os.getenv(\"ALLOWED_HOSTS\", \".elasticbeanstalk.com\").split(\",\")\n#ALLOWED_HOSTS = ['.onrender.com', 'localhost', '127.0.0.1']\n#Sonki\n#ALLOWED_HOSTS = [\"django-blogapp-yedek.onrender.com\", \"127.0.0.1\"]\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com']\n# Application definition\nINSTALLED_APPS = [\n    'blogapp.apps.BlogappConfig', ",
         "detail": "blogapp.settings",
         "documentation": {}
     },
@@ -1141,7 +1158,7 @@
         "kind": 5,
         "importPath": "blogapp.settings",
         "description": "blogapp.settings",
-        "peekOfCode": "#ALLOWED_HOSTS = os.getenv(\"ALLOWED_HOSTS\", \"127.0.0.1,localhost\").split(\",\")\n#ALLOWED_HOSTS = os.getenv(\"ALLOWED_HOSTS\", \".elasticbeanstalk.com\").split(\",\")\n#ALLOWED_HOSTS = ['.onrender.com', 'localhost', '127.0.0.1']\n#Sonki\n#ALLOWED_HOSTS = [\"django-blogapp-yedek.onrender.com\", \"127.0.0.1\"]\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com']\n# Application definition\nINSTALLED_APPS = [\n    'blogapp',  \n    'django.contrib.admin',",
+        "peekOfCode": "#ALLOWED_HOSTS = os.getenv(\"ALLOWED_HOSTS\", \"127.0.0.1,localhost\").split(\",\")\n#ALLOWED_HOSTS = os.getenv(\"ALLOWED_HOSTS\", \".elasticbeanstalk.com\").split(\",\")\n#ALLOWED_HOSTS = ['.onrender.com', 'localhost', '127.0.0.1']\n#Sonki\n#ALLOWED_HOSTS = [\"django-blogapp-yedek.onrender.com\", \"127.0.0.1\"]\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com']\n# Application definition\nINSTALLED_APPS = [\n    'blogapp.apps.BlogappConfig', \n    'django.contrib.admin',",
         "detail": "blogapp.settings",
         "documentation": {}
     },
@@ -1150,7 +1167,7 @@
         "kind": 5,
         "importPath": "blogapp.settings",
         "description": "blogapp.settings",
-        "peekOfCode": "#ALLOWED_HOSTS = os.getenv(\"ALLOWED_HOSTS\", \".elasticbeanstalk.com\").split(\",\")\n#ALLOWED_HOSTS = ['.onrender.com', 'localhost', '127.0.0.1']\n#Sonki\n#ALLOWED_HOSTS = [\"django-blogapp-yedek.onrender.com\", \"127.0.0.1\"]\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com']\n# Application definition\nINSTALLED_APPS = [\n    'blogapp',  \n    'django.contrib.admin',\n    'django.contrib.auth',",
+        "peekOfCode": "#ALLOWED_HOSTS = os.getenv(\"ALLOWED_HOSTS\", \".elasticbeanstalk.com\").split(\",\")\n#ALLOWED_HOSTS = ['.onrender.com', 'localhost', '127.0.0.1']\n#Sonki\n#ALLOWED_HOSTS = [\"django-blogapp-yedek.onrender.com\", \"127.0.0.1\"]\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com']\n# Application definition\nINSTALLED_APPS = [\n    'blogapp.apps.BlogappConfig', \n    'django.contrib.admin',\n    'django.contrib.auth',",
         "detail": "blogapp.settings",
         "documentation": {}
     },
@@ -1159,7 +1176,7 @@
         "kind": 5,
         "importPath": "blogapp.settings",
         "description": "blogapp.settings",
-        "peekOfCode": "#ALLOWED_HOSTS = ['.onrender.com', 'localhost', '127.0.0.1']\n#Sonki\n#ALLOWED_HOSTS = [\"django-blogapp-yedek.onrender.com\", \"127.0.0.1\"]\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com']\n# Application definition\nINSTALLED_APPS = [\n    'blogapp',  \n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',",
+        "peekOfCode": "#ALLOWED_HOSTS = ['.onrender.com', 'localhost', '127.0.0.1']\n#Sonki\n#ALLOWED_HOSTS = [\"django-blogapp-yedek.onrender.com\", \"127.0.0.1\"]\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com']\n# Application definition\nINSTALLED_APPS = [\n    'blogapp.apps.BlogappConfig', \n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',",
         "detail": "blogapp.settings",
         "documentation": {}
     },
@@ -1168,7 +1185,7 @@
         "kind": 5,
         "importPath": "blogapp.settings",
         "description": "blogapp.settings",
-        "peekOfCode": "#ALLOWED_HOSTS = [\"django-blogapp-yedek.onrender.com\", \"127.0.0.1\"]\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com']\n# Application definition\nINSTALLED_APPS = [\n    'blogapp',  \n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',",
+        "peekOfCode": "#ALLOWED_HOSTS = [\"django-blogapp-yedek.onrender.com\", \"127.0.0.1\"]\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com']\n# Application definition\nINSTALLED_APPS = [\n    'blogapp.apps.BlogappConfig', \n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',",
         "detail": "blogapp.settings",
         "documentation": {}
     },
@@ -1177,7 +1194,7 @@
         "kind": 5,
         "importPath": "blogapp.settings",
         "description": "blogapp.settings",
-        "peekOfCode": "#ALLOWED_HOSTS = ['.elasticbeanstalk.com']\n# Application definition\nINSTALLED_APPS = [\n    'blogapp',  \n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "peekOfCode": "#ALLOWED_HOSTS = ['.elasticbeanstalk.com']\n# Application definition\nINSTALLED_APPS = [\n    'blogapp.apps.BlogappConfig', \n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
         "detail": "blogapp.settings",
         "documentation": {}
     },
@@ -1186,7 +1203,7 @@
         "kind": 5,
         "importPath": "blogapp.settings",
         "description": "blogapp.settings",
-        "peekOfCode": "INSTALLED_APPS = [\n    'blogapp',  \n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'ckeditor',\n]",
+        "peekOfCode": "INSTALLED_APPS = [\n    'blogapp.apps.BlogappConfig', \n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'ckeditor',\n]",
         "detail": "blogapp.settings",
         "documentation": {}
     },
