@@ -1074,7 +1074,7 @@
         "kind": 5,
         "importPath": "blogapp.settings",
         "description": "blogapp.settings",
-        "peekOfCode": "DEBUG = os.getenv(\"DEBUG\", \"True\").lower() in [\"true\", \"1\"]\nALLOWED_HOSTS = [\"*\"]\n#ALLOWED_HOSTS = os.getenv(\"ALLOWED_HOSTS\", \"127.0.0.1,localhost\").split(\",\")\n#ALLOWED_HOSTS = os.getenv(\"ALLOWED_HOSTS\", \".elasticbeanstalk.com\").split(\",\")\n#ALLOWED_HOSTS = ['.onrender.com', 'localhost', '127.0.0.1']\n#Sonki\n#ALLOWED_HOSTS = [\"django-blogapp-yedek.onrender.com\", \"127.0.0.1\"]\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com']\n#STATICFILES_STORAGE = \"whitenoise.storage.CompressedStaticFilesStorage\"\nSTATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'",
+        "peekOfCode": "DEBUG = os.getenv(\"DEBUG\", \"True\").lower() in [\"true\", \"1\"]\nALLOWED_HOSTS = [\"*\"]\n#ALLOWED_HOSTS = os.getenv(\"ALLOWED_HOSTS\", \"127.0.0.1,localhost\").split(\",\")\n#ALLOWED_HOSTS = os.getenv(\"ALLOWED_HOSTS\", \".elasticbeanstalk.com\").split(\",\")\n#ALLOWED_HOSTS = ['.onrender.com', 'localhost', '127.0.0.1']\n#Sonki\n#ALLOWED_HOSTS = [\"django-blogapp-yedek.onrender.com\", \"127.0.0.1\"]\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com']\n#STATICFILES_STORAGE = \"whitenoise.storage.CompressedStaticFilesStorage\"\n#STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'",
         "detail": "blogapp.settings",
         "documentation": {}
     },
@@ -1083,7 +1083,7 @@
         "kind": 5,
         "importPath": "blogapp.settings",
         "description": "blogapp.settings",
-        "peekOfCode": "ALLOWED_HOSTS = [\"*\"]\n#ALLOWED_HOSTS = os.getenv(\"ALLOWED_HOSTS\", \"127.0.0.1,localhost\").split(\",\")\n#ALLOWED_HOSTS = os.getenv(\"ALLOWED_HOSTS\", \".elasticbeanstalk.com\").split(\",\")\n#ALLOWED_HOSTS = ['.onrender.com', 'localhost', '127.0.0.1']\n#Sonki\n#ALLOWED_HOSTS = [\"django-blogapp-yedek.onrender.com\", \"127.0.0.1\"]\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com']\n#STATICFILES_STORAGE = \"whitenoise.storage.CompressedStaticFilesStorage\"\nSTATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'\n# Application definition",
+        "peekOfCode": "ALLOWED_HOSTS = [\"*\"]\n#ALLOWED_HOSTS = os.getenv(\"ALLOWED_HOSTS\", \"127.0.0.1,localhost\").split(\",\")\n#ALLOWED_HOSTS = os.getenv(\"ALLOWED_HOSTS\", \".elasticbeanstalk.com\").split(\",\")\n#ALLOWED_HOSTS = ['.onrender.com', 'localhost', '127.0.0.1']\n#Sonki\n#ALLOWED_HOSTS = [\"django-blogapp-yedek.onrender.com\", \"127.0.0.1\"]\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com']\n#STATICFILES_STORAGE = \"whitenoise.storage.CompressedStaticFilesStorage\"\n#STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'\n# Whitenoise hatasını bypass etmek için:",
         "detail": "blogapp.settings",
         "documentation": {}
     },
@@ -1092,7 +1092,7 @@
         "kind": 5,
         "importPath": "blogapp.settings",
         "description": "blogapp.settings",
-        "peekOfCode": "#ALLOWED_HOSTS = os.getenv(\"ALLOWED_HOSTS\", \"127.0.0.1,localhost\").split(\",\")\n#ALLOWED_HOSTS = os.getenv(\"ALLOWED_HOSTS\", \".elasticbeanstalk.com\").split(\",\")\n#ALLOWED_HOSTS = ['.onrender.com', 'localhost', '127.0.0.1']\n#Sonki\n#ALLOWED_HOSTS = [\"django-blogapp-yedek.onrender.com\", \"127.0.0.1\"]\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com']\n#STATICFILES_STORAGE = \"whitenoise.storage.CompressedStaticFilesStorage\"\nSTATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'\n# Application definition\nINSTALLED_APPS = [",
+        "peekOfCode": "#ALLOWED_HOSTS = os.getenv(\"ALLOWED_HOSTS\", \"127.0.0.1,localhost\").split(\",\")\n#ALLOWED_HOSTS = os.getenv(\"ALLOWED_HOSTS\", \".elasticbeanstalk.com\").split(\",\")\n#ALLOWED_HOSTS = ['.onrender.com', 'localhost', '127.0.0.1']\n#Sonki\n#ALLOWED_HOSTS = [\"django-blogapp-yedek.onrender.com\", \"127.0.0.1\"]\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com']\n#STATICFILES_STORAGE = \"whitenoise.storage.CompressedStaticFilesStorage\"\n#STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'\n# Whitenoise hatasını bypass etmek için:\nif os.getenv(\"RENDER\") == \"true\":",
         "detail": "blogapp.settings",
         "documentation": {}
     },
@@ -1101,7 +1101,7 @@
         "kind": 5,
         "importPath": "blogapp.settings",
         "description": "blogapp.settings",
-        "peekOfCode": "#ALLOWED_HOSTS = os.getenv(\"ALLOWED_HOSTS\", \".elasticbeanstalk.com\").split(\",\")\n#ALLOWED_HOSTS = ['.onrender.com', 'localhost', '127.0.0.1']\n#Sonki\n#ALLOWED_HOSTS = [\"django-blogapp-yedek.onrender.com\", \"127.0.0.1\"]\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com']\n#STATICFILES_STORAGE = \"whitenoise.storage.CompressedStaticFilesStorage\"\nSTATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'\n# Application definition\nINSTALLED_APPS = [\n    'blogapp.apps.BlogappConfig', ",
+        "peekOfCode": "#ALLOWED_HOSTS = os.getenv(\"ALLOWED_HOSTS\", \".elasticbeanstalk.com\").split(\",\")\n#ALLOWED_HOSTS = ['.onrender.com', 'localhost', '127.0.0.1']\n#Sonki\n#ALLOWED_HOSTS = [\"django-blogapp-yedek.onrender.com\", \"127.0.0.1\"]\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com']\n#STATICFILES_STORAGE = \"whitenoise.storage.CompressedStaticFilesStorage\"\n#STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'\n# Whitenoise hatasını bypass etmek için:\nif os.getenv(\"RENDER\") == \"true\":\n    STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'",
         "detail": "blogapp.settings",
         "documentation": {}
     },
@@ -1110,7 +1110,7 @@
         "kind": 5,
         "importPath": "blogapp.settings",
         "description": "blogapp.settings",
-        "peekOfCode": "#ALLOWED_HOSTS = ['.onrender.com', 'localhost', '127.0.0.1']\n#Sonki\n#ALLOWED_HOSTS = [\"django-blogapp-yedek.onrender.com\", \"127.0.0.1\"]\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com']\n#STATICFILES_STORAGE = \"whitenoise.storage.CompressedStaticFilesStorage\"\nSTATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'\n# Application definition\nINSTALLED_APPS = [\n    'blogapp.apps.BlogappConfig', \n    'django.contrib.admin',",
+        "peekOfCode": "#ALLOWED_HOSTS = ['.onrender.com', 'localhost', '127.0.0.1']\n#Sonki\n#ALLOWED_HOSTS = [\"django-blogapp-yedek.onrender.com\", \"127.0.0.1\"]\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com']\n#STATICFILES_STORAGE = \"whitenoise.storage.CompressedStaticFilesStorage\"\n#STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'\n# Whitenoise hatasını bypass etmek için:\nif os.getenv(\"RENDER\") == \"true\":\n    STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'\n# Application definition",
         "detail": "blogapp.settings",
         "documentation": {}
     },
@@ -1119,7 +1119,7 @@
         "kind": 5,
         "importPath": "blogapp.settings",
         "description": "blogapp.settings",
-        "peekOfCode": "#ALLOWED_HOSTS = [\"django-blogapp-yedek.onrender.com\", \"127.0.0.1\"]\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com']\n#STATICFILES_STORAGE = \"whitenoise.storage.CompressedStaticFilesStorage\"\nSTATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'\n# Application definition\nINSTALLED_APPS = [\n    'blogapp.apps.BlogappConfig', \n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',",
+        "peekOfCode": "#ALLOWED_HOSTS = [\"django-blogapp-yedek.onrender.com\", \"127.0.0.1\"]\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com']\n#STATICFILES_STORAGE = \"whitenoise.storage.CompressedStaticFilesStorage\"\n#STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'\n# Whitenoise hatasını bypass etmek için:\nif os.getenv(\"RENDER\") == \"true\":\n    STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'\n# Application definition\nINSTALLED_APPS = [\n    'blogapp.apps.BlogappConfig', ",
         "detail": "blogapp.settings",
         "documentation": {}
     },
@@ -1128,7 +1128,7 @@
         "kind": 5,
         "importPath": "blogapp.settings",
         "description": "blogapp.settings",
-        "peekOfCode": "#ALLOWED_HOSTS = ['.elasticbeanstalk.com']\n#STATICFILES_STORAGE = \"whitenoise.storage.CompressedStaticFilesStorage\"\nSTATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'\n# Application definition\nINSTALLED_APPS = [\n    'blogapp.apps.BlogappConfig', \n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "peekOfCode": "#ALLOWED_HOSTS = ['.elasticbeanstalk.com']\n#STATICFILES_STORAGE = \"whitenoise.storage.CompressedStaticFilesStorage\"\n#STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'\n# Whitenoise hatasını bypass etmek için:\nif os.getenv(\"RENDER\") == \"true\":\n    STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'\n# Application definition\nINSTALLED_APPS = [\n    'blogapp.apps.BlogappConfig', \n    'django.contrib.admin',",
         "detail": "blogapp.settings",
         "documentation": {}
     },
@@ -1137,16 +1137,16 @@
         "kind": 5,
         "importPath": "blogapp.settings",
         "description": "blogapp.settings",
-        "peekOfCode": "#STATICFILES_STORAGE = \"whitenoise.storage.CompressedStaticFilesStorage\"\nSTATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'\n# Application definition\nINSTALLED_APPS = [\n    'blogapp.apps.BlogappConfig', \n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',",
+        "peekOfCode": "#STATICFILES_STORAGE = \"whitenoise.storage.CompressedStaticFilesStorage\"\n#STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'\n# Whitenoise hatasını bypass etmek için:\nif os.getenv(\"RENDER\") == \"true\":\n    STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'\n# Application definition\nINSTALLED_APPS = [\n    'blogapp.apps.BlogappConfig', \n    'django.contrib.admin',\n    'django.contrib.auth',",
         "detail": "blogapp.settings",
         "documentation": {}
     },
     {
-        "label": "STATICFILES_STORAGE",
+        "label": "#STATICFILES_STORAGE",
         "kind": 5,
         "importPath": "blogapp.settings",
         "description": "blogapp.settings",
-        "peekOfCode": "STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'\n# Application definition\nINSTALLED_APPS = [\n    'blogapp.apps.BlogappConfig', \n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "peekOfCode": "#STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'\n# Whitenoise hatasını bypass etmek için:\nif os.getenv(\"RENDER\") == \"true\":\n    STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'\n# Application definition\nINSTALLED_APPS = [\n    'blogapp.apps.BlogappConfig', \n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',",
         "detail": "blogapp.settings",
         "documentation": {}
     },
@@ -1218,7 +1218,7 @@
         "kind": 5,
         "importPath": "blogapp.settings",
         "description": "blogapp.settings",
-        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nimport os\nSTATIC_URL = '/static/'\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nMEDIA_URL = '/media/'",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = '/static/'\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')",
         "detail": "blogapp.settings",
         "documentation": {}
     },
@@ -1227,7 +1227,7 @@
         "kind": 5,
         "importPath": "blogapp.settings",
         "description": "blogapp.settings",
-        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nimport os\nSTATIC_URL = '/static/'\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = '/static/'\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nMEDIA_URL = '/media/'",
         "detail": "blogapp.settings",
         "documentation": {}
     },
@@ -1236,7 +1236,7 @@
         "kind": 5,
         "importPath": "blogapp.settings",
         "description": "blogapp.settings",
-        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nimport os\nSTATIC_URL = '/static/'\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\n# Deployment için",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = '/static/'\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')",
         "detail": "blogapp.settings",
         "documentation": {}
     },
@@ -1245,7 +1245,7 @@
         "kind": 5,
         "importPath": "blogapp.settings",
         "description": "blogapp.settings",
-        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nimport os\nSTATIC_URL = '/static/'\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\n# Deployment için\nif not DEBUG:",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = '/static/'\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\n# Static files storage override for Render platform",
         "detail": "blogapp.settings",
         "documentation": {}
     },
@@ -1254,7 +1254,7 @@
         "kind": 5,
         "importPath": "blogapp.settings",
         "description": "blogapp.settings",
-        "peekOfCode": "STATIC_URL = '/static/'\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\n# Deployment için\nif not DEBUG:\n    STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "STATIC_URL = '/static/'\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\n# Static files storage override for Render platform\nif os.getenv(\"RENDER\") == \"true\":\n    STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'\nelse:\n    STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'\n# Default primary key field type",
         "detail": "blogapp.settings",
         "documentation": {}
     },
@@ -1263,7 +1263,7 @@
         "kind": 5,
         "importPath": "blogapp.settings",
         "description": "blogapp.settings",
-        "peekOfCode": "STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\n# Deployment için\nif not DEBUG:\n    STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nLOGIN_URL = '/account/login/'",
+        "peekOfCode": "STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\n# Static files storage override for Render platform\nif os.getenv(\"RENDER\") == \"true\":\n    STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'\nelse:\n    STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field",
         "detail": "blogapp.settings",
         "documentation": {}
     },
@@ -1272,7 +1272,7 @@
         "kind": 5,
         "importPath": "blogapp.settings",
         "description": "blogapp.settings",
-        "peekOfCode": "MEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\n# Deployment için\nif not DEBUG:\n    STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nLOGIN_URL = '/account/login/'\nLOGIN_REDIRECT_URL = '/homework/list/'",
+        "peekOfCode": "MEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\n# Static files storage override for Render platform\nif os.getenv(\"RENDER\") == \"true\":\n    STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'\nelse:\n    STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
         "detail": "blogapp.settings",
         "documentation": {}
     },
@@ -1281,7 +1281,7 @@
         "kind": 5,
         "importPath": "blogapp.settings",
         "description": "blogapp.settings",
-        "peekOfCode": "MEDIA_ROOT = os.path.join(BASE_DIR, 'media')\n# Deployment için\nif not DEBUG:\n    STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nLOGIN_URL = '/account/login/'\nLOGIN_REDIRECT_URL = '/homework/list/'\nLOGOUT_REDIRECT_URL = '/'",
+        "peekOfCode": "MEDIA_ROOT = os.path.join(BASE_DIR, 'media')\n# Static files storage override for Render platform\nif os.getenv(\"RENDER\") == \"true\":\n    STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'\nelse:\n    STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nLOGIN_URL = '/account/login/'",
         "detail": "blogapp.settings",
         "documentation": {}
     },
