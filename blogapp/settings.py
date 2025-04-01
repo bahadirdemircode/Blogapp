@@ -55,7 +55,9 @@ ALLOWED_HOSTS = ["*"]
 
 #ALLOWED_HOSTS = ['.elasticbeanstalk.com']
 
-STATICFILES_STORAGE = "whitenoise.storage.CompressedStaticFilesStorage"
+#STATICFILES_STORAGE = "whitenoise.storage.CompressedStaticFilesStorage"
+STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'
+
 
 
 # Application definition

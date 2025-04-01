@@ -1065,7 +1065,7 @@
         "kind": 5,
         "importPath": "blogapp.settings",
         "description": "blogapp.settings",
-        "peekOfCode": "#ALLOWED_HOSTS = ['.elasticbeanstalk.com', 'localhost', '127.0.0.1']\nDEBUG = os.getenv(\"DEBUG\", \"True\").lower() in [\"true\", \"1\"]\nALLOWED_HOSTS = [\"*\"]\n#ALLOWED_HOSTS = os.getenv(\"ALLOWED_HOSTS\", \"127.0.0.1,localhost\").split(\",\")\n#ALLOWED_HOSTS = os.getenv(\"ALLOWED_HOSTS\", \".elasticbeanstalk.com\").split(\",\")\n#ALLOWED_HOSTS = ['.onrender.com', 'localhost', '127.0.0.1']\n#Sonki\n#ALLOWED_HOSTS = [\"django-blogapp-yedek.onrender.com\", \"127.0.0.1\"]\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com']\nSTATICFILES_STORAGE = \"whitenoise.storage.CompressedStaticFilesStorage\"",
+        "peekOfCode": "#ALLOWED_HOSTS = ['.elasticbeanstalk.com', 'localhost', '127.0.0.1']\nDEBUG = os.getenv(\"DEBUG\", \"True\").lower() in [\"true\", \"1\"]\nALLOWED_HOSTS = [\"*\"]\n#ALLOWED_HOSTS = os.getenv(\"ALLOWED_HOSTS\", \"127.0.0.1,localhost\").split(\",\")\n#ALLOWED_HOSTS = os.getenv(\"ALLOWED_HOSTS\", \".elasticbeanstalk.com\").split(\",\")\n#ALLOWED_HOSTS = ['.onrender.com', 'localhost', '127.0.0.1']\n#Sonki\n#ALLOWED_HOSTS = [\"django-blogapp-yedek.onrender.com\", \"127.0.0.1\"]\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com']\n#STATICFILES_STORAGE = \"whitenoise.storage.CompressedStaticFilesStorage\"",
         "detail": "blogapp.settings",
         "documentation": {}
     },
@@ -1074,7 +1074,7 @@
         "kind": 5,
         "importPath": "blogapp.settings",
         "description": "blogapp.settings",
-        "peekOfCode": "DEBUG = os.getenv(\"DEBUG\", \"True\").lower() in [\"true\", \"1\"]\nALLOWED_HOSTS = [\"*\"]\n#ALLOWED_HOSTS = os.getenv(\"ALLOWED_HOSTS\", \"127.0.0.1,localhost\").split(\",\")\n#ALLOWED_HOSTS = os.getenv(\"ALLOWED_HOSTS\", \".elasticbeanstalk.com\").split(\",\")\n#ALLOWED_HOSTS = ['.onrender.com', 'localhost', '127.0.0.1']\n#Sonki\n#ALLOWED_HOSTS = [\"django-blogapp-yedek.onrender.com\", \"127.0.0.1\"]\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com']\nSTATICFILES_STORAGE = \"whitenoise.storage.CompressedStaticFilesStorage\"\n# Application definition",
+        "peekOfCode": "DEBUG = os.getenv(\"DEBUG\", \"True\").lower() in [\"true\", \"1\"]\nALLOWED_HOSTS = [\"*\"]\n#ALLOWED_HOSTS = os.getenv(\"ALLOWED_HOSTS\", \"127.0.0.1,localhost\").split(\",\")\n#ALLOWED_HOSTS = os.getenv(\"ALLOWED_HOSTS\", \".elasticbeanstalk.com\").split(\",\")\n#ALLOWED_HOSTS = ['.onrender.com', 'localhost', '127.0.0.1']\n#Sonki\n#ALLOWED_HOSTS = [\"django-blogapp-yedek.onrender.com\", \"127.0.0.1\"]\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com']\n#STATICFILES_STORAGE = \"whitenoise.storage.CompressedStaticFilesStorage\"\nSTATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'",
         "detail": "blogapp.settings",
         "documentation": {}
     },
@@ -1083,7 +1083,7 @@
         "kind": 5,
         "importPath": "blogapp.settings",
         "description": "blogapp.settings",
-        "peekOfCode": "ALLOWED_HOSTS = [\"*\"]\n#ALLOWED_HOSTS = os.getenv(\"ALLOWED_HOSTS\", \"127.0.0.1,localhost\").split(\",\")\n#ALLOWED_HOSTS = os.getenv(\"ALLOWED_HOSTS\", \".elasticbeanstalk.com\").split(\",\")\n#ALLOWED_HOSTS = ['.onrender.com', 'localhost', '127.0.0.1']\n#Sonki\n#ALLOWED_HOSTS = [\"django-blogapp-yedek.onrender.com\", \"127.0.0.1\"]\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com']\nSTATICFILES_STORAGE = \"whitenoise.storage.CompressedStaticFilesStorage\"\n# Application definition\nINSTALLED_APPS = [",
+        "peekOfCode": "ALLOWED_HOSTS = [\"*\"]\n#ALLOWED_HOSTS = os.getenv(\"ALLOWED_HOSTS\", \"127.0.0.1,localhost\").split(\",\")\n#ALLOWED_HOSTS = os.getenv(\"ALLOWED_HOSTS\", \".elasticbeanstalk.com\").split(\",\")\n#ALLOWED_HOSTS = ['.onrender.com', 'localhost', '127.0.0.1']\n#Sonki\n#ALLOWED_HOSTS = [\"django-blogapp-yedek.onrender.com\", \"127.0.0.1\"]\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com']\n#STATICFILES_STORAGE = \"whitenoise.storage.CompressedStaticFilesStorage\"\nSTATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'\n# Application definition",
         "detail": "blogapp.settings",
         "documentation": {}
     },
@@ -1092,7 +1092,7 @@
         "kind": 5,
         "importPath": "blogapp.settings",
         "description": "blogapp.settings",
-        "peekOfCode": "#ALLOWED_HOSTS = os.getenv(\"ALLOWED_HOSTS\", \"127.0.0.1,localhost\").split(\",\")\n#ALLOWED_HOSTS = os.getenv(\"ALLOWED_HOSTS\", \".elasticbeanstalk.com\").split(\",\")\n#ALLOWED_HOSTS = ['.onrender.com', 'localhost', '127.0.0.1']\n#Sonki\n#ALLOWED_HOSTS = [\"django-blogapp-yedek.onrender.com\", \"127.0.0.1\"]\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com']\nSTATICFILES_STORAGE = \"whitenoise.storage.CompressedStaticFilesStorage\"\n# Application definition\nINSTALLED_APPS = [\n    'blogapp.apps.BlogappConfig', ",
+        "peekOfCode": "#ALLOWED_HOSTS = os.getenv(\"ALLOWED_HOSTS\", \"127.0.0.1,localhost\").split(\",\")\n#ALLOWED_HOSTS = os.getenv(\"ALLOWED_HOSTS\", \".elasticbeanstalk.com\").split(\",\")\n#ALLOWED_HOSTS = ['.onrender.com', 'localhost', '127.0.0.1']\n#Sonki\n#ALLOWED_HOSTS = [\"django-blogapp-yedek.onrender.com\", \"127.0.0.1\"]\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com']\n#STATICFILES_STORAGE = \"whitenoise.storage.CompressedStaticFilesStorage\"\nSTATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'\n# Application definition\nINSTALLED_APPS = [",
         "detail": "blogapp.settings",
         "documentation": {}
     },
@@ -1101,7 +1101,7 @@
         "kind": 5,
         "importPath": "blogapp.settings",
         "description": "blogapp.settings",
-        "peekOfCode": "#ALLOWED_HOSTS = os.getenv(\"ALLOWED_HOSTS\", \".elasticbeanstalk.com\").split(\",\")\n#ALLOWED_HOSTS = ['.onrender.com', 'localhost', '127.0.0.1']\n#Sonki\n#ALLOWED_HOSTS = [\"django-blogapp-yedek.onrender.com\", \"127.0.0.1\"]\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com']\nSTATICFILES_STORAGE = \"whitenoise.storage.CompressedStaticFilesStorage\"\n# Application definition\nINSTALLED_APPS = [\n    'blogapp.apps.BlogappConfig', \n    'django.contrib.admin',",
+        "peekOfCode": "#ALLOWED_HOSTS = os.getenv(\"ALLOWED_HOSTS\", \".elasticbeanstalk.com\").split(\",\")\n#ALLOWED_HOSTS = ['.onrender.com', 'localhost', '127.0.0.1']\n#Sonki\n#ALLOWED_HOSTS = [\"django-blogapp-yedek.onrender.com\", \"127.0.0.1\"]\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com']\n#STATICFILES_STORAGE = \"whitenoise.storage.CompressedStaticFilesStorage\"\nSTATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'\n# Application definition\nINSTALLED_APPS = [\n    'blogapp.apps.BlogappConfig', ",
         "detail": "blogapp.settings",
         "documentation": {}
     },
@@ -1110,7 +1110,7 @@
         "kind": 5,
         "importPath": "blogapp.settings",
         "description": "blogapp.settings",
-        "peekOfCode": "#ALLOWED_HOSTS = ['.onrender.com', 'localhost', '127.0.0.1']\n#Sonki\n#ALLOWED_HOSTS = [\"django-blogapp-yedek.onrender.com\", \"127.0.0.1\"]\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com']\nSTATICFILES_STORAGE = \"whitenoise.storage.CompressedStaticFilesStorage\"\n# Application definition\nINSTALLED_APPS = [\n    'blogapp.apps.BlogappConfig', \n    'django.contrib.admin',\n    'django.contrib.auth',",
+        "peekOfCode": "#ALLOWED_HOSTS = ['.onrender.com', 'localhost', '127.0.0.1']\n#Sonki\n#ALLOWED_HOSTS = [\"django-blogapp-yedek.onrender.com\", \"127.0.0.1\"]\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com']\n#STATICFILES_STORAGE = \"whitenoise.storage.CompressedStaticFilesStorage\"\nSTATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'\n# Application definition\nINSTALLED_APPS = [\n    'blogapp.apps.BlogappConfig', \n    'django.contrib.admin',",
         "detail": "blogapp.settings",
         "documentation": {}
     },
@@ -1119,7 +1119,7 @@
         "kind": 5,
         "importPath": "blogapp.settings",
         "description": "blogapp.settings",
-        "peekOfCode": "#ALLOWED_HOSTS = [\"django-blogapp-yedek.onrender.com\", \"127.0.0.1\"]\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com']\nSTATICFILES_STORAGE = \"whitenoise.storage.CompressedStaticFilesStorage\"\n# Application definition\nINSTALLED_APPS = [\n    'blogapp.apps.BlogappConfig', \n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "peekOfCode": "#ALLOWED_HOSTS = [\"django-blogapp-yedek.onrender.com\", \"127.0.0.1\"]\n#ALLOWED_HOSTS = ['.elasticbeanstalk.com']\n#STATICFILES_STORAGE = \"whitenoise.storage.CompressedStaticFilesStorage\"\nSTATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'\n# Application definition\nINSTALLED_APPS = [\n    'blogapp.apps.BlogappConfig', \n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',",
         "detail": "blogapp.settings",
         "documentation": {}
     },
@@ -1128,7 +1128,16 @@
         "kind": 5,
         "importPath": "blogapp.settings",
         "description": "blogapp.settings",
-        "peekOfCode": "#ALLOWED_HOSTS = ['.elasticbeanstalk.com']\nSTATICFILES_STORAGE = \"whitenoise.storage.CompressedStaticFilesStorage\"\n# Application definition\nINSTALLED_APPS = [\n    'blogapp.apps.BlogappConfig', \n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',",
+        "peekOfCode": "#ALLOWED_HOSTS = ['.elasticbeanstalk.com']\n#STATICFILES_STORAGE = \"whitenoise.storage.CompressedStaticFilesStorage\"\nSTATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'\n# Application definition\nINSTALLED_APPS = [\n    'blogapp.apps.BlogappConfig', \n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "blogapp.settings",
+        "documentation": {}
+    },
+    {
+        "label": "#STATICFILES_STORAGE",
+        "kind": 5,
+        "importPath": "blogapp.settings",
+        "description": "blogapp.settings",
+        "peekOfCode": "#STATICFILES_STORAGE = \"whitenoise.storage.CompressedStaticFilesStorage\"\nSTATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'\n# Application definition\nINSTALLED_APPS = [\n    'blogapp.apps.BlogappConfig', \n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',",
         "detail": "blogapp.settings",
         "documentation": {}
     },
@@ -1137,7 +1146,7 @@
         "kind": 5,
         "importPath": "blogapp.settings",
         "description": "blogapp.settings",
-        "peekOfCode": "STATICFILES_STORAGE = \"whitenoise.storage.CompressedStaticFilesStorage\"\n# Application definition\nINSTALLED_APPS = [\n    'blogapp.apps.BlogappConfig', \n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "peekOfCode": "STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'\n# Application definition\nINSTALLED_APPS = [\n    'blogapp.apps.BlogappConfig', \n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
         "detail": "blogapp.settings",
         "documentation": {}
     },
